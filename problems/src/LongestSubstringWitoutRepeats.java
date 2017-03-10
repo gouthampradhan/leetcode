@@ -1,4 +1,6 @@
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -15,47 +17,22 @@ public class LongestSubstringWitoutRepeats
      */
     public static void main(String[] args) throws Exception
     {
-        System.out.println(new LongestSubstringWitoutRepeats().lengthOfLongestSubstring("asdfad"));
+        System.out.println(new LongestSubstringWitoutRepeats().lengthOfLongestSubstring("asdfsdfsdfsdfasdfdjdjjdjjdjjjjjajsdjjdjdjjd"));
     }
 
     private int lengthOfLongestSubstring(String s)
     {
         if(s == null || s.isEmpty()) return 0;
-        int count = 0;
-        int max = Integer.MIN_VALUE; String subStr = "";
-        for(int i = 0, l = s.length(); i < l; i ++)
+        Map<Character, Integer> map = new HashMap<>();
+        int i = 0, max = Integer.MIN_VALUE;
+        for(int j = 0, l = s.length(); j < l; j ++)
         {
-            char c = s.charAt(i);
-            if(!set.contains(c))
+            if(map.keySet().contains(s.charAt(j)))
             {
-                set.add(c);
-                subStr = subStr + c;
-                max = Math.max(max, ++count);
+                i = Math.max(map.get(s.charAt(j)) + 1, i);
             }
-            else
-            {
-                int tempCnt = 0, j = 0, sl = subStr.length();
-                for(; j < sl; j ++)
-                {
-                    tempCnt++;
-                    if(subStr.charAt(j) == c) break;
-                    set.remove(subStr.charAt(j));
-                }
-                if(j == (sl - 1))
-                {
-                    subStr = "";
-                    count = 0;
-                    set.clear();
-                }
-                else
-                {
-                    subStr = subStr.substring(j + 1, sl);
-                    count = count - tempCnt;
-                }
-                count += 1;
-                subStr = subStr + c;
-                set.add(c);
-            }
+            map.put(s.charAt(j), j);
+            max = Math.max(max, (j - i) + 1);
         }
         return max;
     }
