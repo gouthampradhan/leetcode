@@ -43,58 +43,17 @@ public class MergeTwoSortedList
     }
     public ListNode mergeTwoLists(ListNode l1, ListNode l2)
     {
-        ListNode first, second;
-        first = l1; second = l2;
-        ListNode head = new ListNode(0);
-        ListNode next = head;
-        while(first != null && second != null)
+        if(l1 == null) return l2;
+        else if(l2 == null) return l1;
+        if(l1.val <= l2.val)
         {
-            if(first.val < second.val)
-            {
-                ListNode newNode = new ListNode(first.val);
-                next.next = newNode;
-                next = newNode;
-                first = first.next;
-            }
-            else if(second.val < first.val)
-            {
-                ListNode newNode = new ListNode(second.val);
-                next.next = newNode;
-                next = newNode;
-                second = second.next;
-            }
-            else
-            {
-                ListNode newNode = new ListNode(first.val);
-                next.next = newNode;
-                next = newNode;
-
-                ListNode newNode1 = new ListNode(first.val);
-                next.next = newNode1;
-                next = newNode1;
-
-                first = first.next;
-                second = second.next;
-            }
+            l1.next = mergeTwoLists(l1.next, l2);
+            return l1;
         }
-        if(first != null)
+        else
         {
-            while(first != null)
-            {
-                next.next = new ListNode(first.val);
-                next = next.next;
-                first = first.next;
-            }
+            l2.next = mergeTwoLists(l1, l2.next);
+            return l2;
         }
-        if(second != null)
-        {
-            while(second != null)
-            {
-                next.next = new ListNode(second.val);
-                next = next.next;
-                second = second.next;
-            }
-        }
-        return head.next;
     }
 }
