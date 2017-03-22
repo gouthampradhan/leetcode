@@ -1,61 +1,61 @@
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by gouthamvidyapradhan on 20/03/2017.
- * WA
+ * Accepted
  */
 public class LFUCache
 {
-    public static class DLinkList
+    private class Node
     {
-        int key, value, frequency;
-        DLinkList left;
-        DLinkList right;
-        DLinkList(int key, int value, int frequency)
+        int frequency;
+        Node prev;
+        Node next;
+        LinkedHashSet<Integer> hashSet;
+        Node(int frequency,
+             LinkedHashSet<Integer> hashSet)
         {
-            this.key = key;
-            this.value = value;
             this.frequency = frequency;
-            left = null;
-            right = null;
+            this.hashSet = hashSet;
+            prev = null;
+            next = null;
         }
     }
 
-    private static class HeadTail
-    {
-        DLinkList head, tail;
-        HeadTail(DLinkList head, DLinkList tail)
-        {
-            this.head = head;
-            this.tail = tail;
-        }
-    }
 
     private int capacity;
     private int currentSize;
-    private Map<Integer, DLinkList> cache;
-    private Map<Integer, HeadTail> frequencyMap;
+    private Map<Integer, Integer> cache;
+    private Map<Integer, Node> fMap; //frequency
+    private Node head;
     /**
      * Main method
      * @param args
      */
     public static void main(String[] args)
     {
-        LFUCache cache1 = new LFUCache(3);
-        cache1.put(2, 2);
+        LFUCache cache1 = new LFUCache(2);
         cache1.put(1, 1);
-        System.out.println(cache1.get(2));
+        cache1.put(2, 2);
         System.out.println(cache1.get(1));
-        System.out.println(cache1.get(2));
         cache1.put(3, 3);
-        cache1.put(4, 4);
-        System.out.println(cache1.get(3));
         System.out.println(cache1.get(2));
+        //System.out.println(cache1.get(3));
+        cache1.put(4, 4);
+        System.out.println(cache1.get(1));
+        System.out.println(cache1.get(3));
+        System.out.println(cache1.get(4));
         System.out.println(cache1.get(1));
         System.out.println(cache1.get(4));
-
+        System.out.println(cache1.get(2));
+        cache1.put(4, 4);
+        cache1.put(5, 4);
+        cache1.put(1, 9);
+        cache1.put(7, 1);
+        cache1.put(4, 2);
+        System.out.println(cache1.get(1));
+        System.out.println(cache1.get(4));
+        System.out.println(cache1.get(7));
         //System.out.println(cache1.get(3));
         //System.out.println(cache1.get(4));
     }
@@ -65,84 +65,167 @@ public class LFUCache
         currentSize = 0;
         this.capacity = capacity;
         cache = new HashMap<>();
-        frequencyMap = new LinkedHashMap<>();
+        fMap = new HashMap<>();
     }
 
-    private DLinkList popNode(DLinkList node)
+    /**
+     * Remove node and delink
+     * @param node Node
+     */
+    private void popNode(Node node)
     {
-        node.left.right = node.right;
-        node.right.left = node.left;
-        HeadTail headTail = frequencyMap.get(node.frequency);
-        if(headTail.head.right.equals(headTail.tail))
-            frequencyMap.remove(node.frequency);
-        node.left = null;
-        node.right = null;
-        return node;
-    }
-
-    private DLinkList removeHead(int i)
-    {
-        HeadTail node = frequencyMap.get(i);
-        return popNode(node.head.right);
-    }
-
-    private void offer(int i, DLinkList node)
-    {
-        HeadTail dList = frequencyMap.get(i);
-        if(dList == null)
+        if(node.prev != null && node.next != null)
         {
-            DLinkList pHead = new DLinkList(-1, -1, -1);
-            DLinkList pTail = new DLinkList(-1, -1, -1);
-            pHead.right = pTail;
-            pTail.left = pHead;
-            HeadTail newHeadTail = new HeadTail(pHead, pTail);
-            frequencyMap.put(i, newHeadTail);
-            dList = newHeadTail;
+            node.prev.next = node.next;
+            node.next.prev = node.prev;
         }
-        //add to the tail
-        dList.tail.left.right = node;
-        node.left = dList.tail.left;
-        node.right = dList.tail;
-        dList.tail.left = node;
-    }
-
-    public int get(int key)
-    {
-        if(!cache.containsKey(key)) return -1;
-        DLinkList node = cache.get(key);
-        popNode(node);
-        node.frequency += 1;
-        offer(node.frequency, node);
-        return node.value;
-    }
-
-    public void put(int key, int value)
-    {
-        if(cache.containsKey(key))
+        else if(node.prev == null)
         {
-            DLinkList node = cache.get(key);
-            popNode(node);
-            node.value = value;
-            node.frequency += 1;
-            offer(node.frequency, node);
-        }
-        else if(currentSize == capacity)
-        {
-            if(frequencyMap.keySet().iterator().hasNext())
-            {
-                int f = frequencyMap.containsKey(1) ? 1 : frequencyMap.keySet().iterator().next();
-                cache.remove(removeHead(f).key);
-                DLinkList node = new DLinkList(key, value, 1);
-                cache.put(key, node);
-                offer(1, node);
-            }
+            node.next.prev = null;
+            node.next = null;
         }
         else
         {
-            DLinkList node = new DLinkList(key, value, 1);
-            cache.put(key, node);
-            offer(1, node);
-            ++currentSize;
+            node.prev.next = null;
+            node.prev = null;
         }
+    }
+
+    /**
+     * Get value
+     * @param key key
+     * @return value
+     */
+    public int get(int key)
+    {
+        if(!cache.containsKey(key)) return -1;
+        fMap.put(key, update(key));
+        return cache.get(key);
+    }
+
+    /**
+     * Update fMap
+     * @param key key
+     */
+    private Node update(int key)
+    {
+        Node node = fMap.get(key);
+        node.hashSet.remove(key);
+        Node newNode;
+        if(node.next == null)
+        {
+            newNode = makeNewNode(key, node.frequency + 1);
+            node.next = newNode;
+            newNode.prev = node;
+        }
+        else if(node.next.frequency == node.frequency + 1)
+        {
+            node.next.hashSet.add(key);
+            newNode = node.next;
+        }
+        else
+        {
+            newNode = makeNewNode(key, node.frequency + 1);
+            node.next.prev = newNode;
+            newNode.next = node.next;
+            newNode.prev = node;
+            node.next = newNode;
+        }
+        if(node.equals(head))
+            incrementHead();
+        else if(node.hashSet.isEmpty())
+            popNode(node);
+        return newNode;
+    }
+    /**
+     * Make new node
+     * @param key key
+     * @param frequency frequency
+     * @return Node
+     */
+    private Node makeNewNode(int key, int frequency)
+    {
+        LinkedHashSet<Integer> linkedHashSet = new LinkedHashSet<>();
+        linkedHashSet.add(key);
+        return new Node(frequency, linkedHashSet);
+    }
+
+    /**
+     * Add new head
+     * @param key key
+     * @param frequency frequency
+     */
+    private Node addHead(int key, int frequency)
+    {
+        if(head == null)
+            head = makeNewNode(key, frequency);
+        else if(head.frequency > frequency)
+        {
+            Node node = makeNewNode(key, frequency);
+            node.next = head;
+            head.prev = node;
+            head = node;
+        }
+        else head.hashSet.add(key);
+        return head;
+    }
+    /**
+     * Increment head
+     */
+    private void incrementHead()
+    {
+        if(head.hashSet.isEmpty())
+        {
+            head = head.next;
+            if(head != null)
+            {
+                head.prev.next = null;
+                head.prev = null;
+            }
+        }
+    }
+
+    /**
+     * Put key value pair
+     * @param key key
+     * @param value value
+     */
+    public void put(int key, int value)
+    {
+        if(capacity != 0)
+        {
+            if(cache.containsKey(key))
+            {
+                fMap.put(key, update(key)); //update existing
+                cache.put(key, value);
+            }
+            else
+            {
+                if(currentSize == capacity)
+                {
+                    evict();
+                    cache.put(key, value);
+                    fMap.put(key, addHead(key, 1));
+                }
+                else
+                {
+                    fMap.put(key, addHead(key, 1)); //add new head
+                    cache.put(key, value);
+                    currentSize++;
+                }
+            }
+        }
+    }
+
+    /**
+     * Evict the node with least frequency
+     */
+    private void evict()
+    {
+        int key = head.hashSet.iterator().next();
+        head.hashSet.remove(key);
+        cache.remove(key);
+        fMap.remove(key);
+        incrementHead();
     }
 }
