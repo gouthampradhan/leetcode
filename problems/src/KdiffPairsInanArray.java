@@ -2,6 +2,7 @@ import java.util.*;
 
 /**
  * Created by gouthamvidyapradhan on 28/03/2017.
+ * Accepted
  */
 public class KdiffPairsInanArray
 {
