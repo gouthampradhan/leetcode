@@ -33,12 +33,13 @@ public class PalindromePartitioningII
         if(A[p] < Integer.MAX_VALUE) return A[p];
         for(int i = p, l = s.length; i < l; i ++ )
         {
-            if(p + 1 <= i - 1) {
-                paliandrome[p][i] = paliandrome[p + 1][i - 1] && (s[p] == s[i]) || isPalindrome(s, p, i);
+            if(p + 1 <= i - 1)
+            {
+                paliandrome[p][i] = (paliandrome[p+1][i-1] && (s[p] == s[i]));
             }
             else
             {
-                paliandrome[p][i] = isPalindrome(s, p, i);
+                paliandrome[p][i] = (i == p) || (s[i] == s[p]);
             }
             if(paliandrome[p][i])
             {
@@ -47,16 +48,4 @@ public class PalindromePartitioningII
         }
         return A[p];
     }
-
-    private boolean isPalindrome(char[] sb, int s, int e)
-    {
-        while(s <= e)
-        {
-            if(sb[s] != sb[e])
-                return false;
-            s++; e--;
-        }
-        return true;
-    }
-
 }
