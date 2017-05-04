@@ -14,14 +14,14 @@ My accepted leetcode solutions to some of the common interview problems.
 ##### [Backtracking](problems/src/backtracking)
 
 - [Combinations](problems/src/backtracking/Combinations.java) (Medium)
-- [Combinations Sum](problems/src/backtracking/CombincationsSum.java) (Medium)
-- [Combinations Sum II](problems/src/backtracking/CombincationsSumII.java) (Medium)
+- [Combinations Sum](problems/src/backtracking/CombinationSum.java) (Medium)
+- [Combinations Sum II](problems/src/backtracking/CombinationSumII.java) (Medium)
 - [Letter Phone Number](problems/src/backtracking/LetterPhoneNumber.java) (Medium)
 - [Paliandrome Partitioning](problems/src/backtracking/PaliandromePartitioning.java) (Medium)
 - [Permutations](problems/src/backtracking/Permutations.java) (Medium)
 - [Permutations II](problems/src/backtracking/PermutationsII.java) (Medium)
 - [SubSets](problems/src/backtracking/SubSets.java) (Medium)
-- [SubSet II](problems/src/backtracking/SubSetII.java) (Medium)
+- [SubSet II](problems/src/backtracking/SubSetsII.java) (Medium)
 - [WordSearch](problems/src/backtracking/WordSearch.java) (Medium)
 
 ##### [Binary Search](problems/src/binary_search)
@@ -50,7 +50,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Copy List With Random Pointer](problems/src/design/CopyListWithRandomPointer.java) (Medium)
 - [Encode and Decode Tiny URL](problems/src/design/EncodeAndDecodeTinyURL.java) (Medium)
 - [LFU Cache](problems/src/design/LFUCache.java) (Hard)
-- [LRU Cache](problems/src/design/LRUCache.java)
+- [LRU Cache](problems/src/design/LRUCache.java) (Hard)
 - [Insert Delete Get Random](problems/src/design/RandomizedSet.java) (Medium)
 - [Serialize Deserialize Binary Tree](problems/src/design/SerializeDeserializeBinaryTree.java) (Hard)
 - [Design Twitter](problems/src/design/Twitter.java) (Medium)
@@ -62,12 +62,12 @@ My accepted leetcode solutions to some of the common interview problems.
 
 ##### [Dynamic Programming](problems/src/dynamic_programming)
 
-- [Best Time To Buy and Sell Stocks](problems/src/dynamic_programming/BestTimeToBuyAndSellStocksjava) (Easy)
+- [Best Time To Buy and Sell Stocks](problems/src/dynamic_programming/BestTimeToBuyAndSellStocks.java) (Easy)
 - [Climbing Stairs](problems/src/dynamic_programming/ClimbingStairs.java) (Easy)
 - [Coin Change 2](problems/src/dynamic_programming/CoinChange2.java) (Medium)
 - [Decode Ways](problems/src/dynamic_programming/DecodeWays.java) (Medium)
 - [House Robber](problems/src/dynamic_programming/HouseRobber.java) (Easy)
-- [Longest Increasing Subsequence](problems/src/dynamic_programming/LongestIncreasingSubsequence.java) ((Medium)
+- [Longest Increasing Subsequence](problems/src/dynamic_programming/LongestIncreasingSubsequence.java) (Medium)
 - [Longest Paliandromic Substring](problems/src/dynamic_programming/LongestPaliandromicSubstring.java) (Medium)
 - [Longest Palindromic Subsequence](problems/src/dynamic_programming/LongestPalindromicSubsequence.java) (Medium)
 - [Maximum Product Subarray](problems/src/dynamic_programming/MaximumProductSubarray.java) (Medium)
@@ -138,7 +138,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Sorted Array to BST](problems/src/tree/SortedArrayToBST.java) (Medium)
 - [Valid Binary Search Tree](problems/src/tree/ValidBinarySearchTree.java) (Medium)
 
-##### [Twp Pointers](problems/src/two_pointers)
+##### [Two Pointers](problems/src/two_pointers)
 
 - [Four Sum](problems/src/two_pointers/FourSum.java) (Medium)
 - [Longest Substring Witout Repeats](problems/src/two_pointers/LongestSubstringWitoutRepeats.java) (Medium)
