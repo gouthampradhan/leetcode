@@ -55,7 +55,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Serialize Deserialize Binary Tree](problems/src/design/SerializeDeserializeBinaryTree.java) (Hard)
 - [Design Twitter](problems/src/design/Twitter.java) (Medium)
 
-#### [Devide and Conquer](problems/src/divide_and_conquer)
+#### [Divide and Conquer](problems/src/divide_and_conquer)
 
 - [Kth Largest Element In a Array](problems/src/divide_and_conquer/KthLargestElementInAnArray.java) (Medium)
 - [Search in a 2D Matrix](problems/src/divide_and_conquer/SearchA2DMatrix.java) (Medium)
@@ -113,7 +113,7 @@ My accepted leetcode solutions to some of the common interview problems.
 #### [Stack](problems/src/stack)
 
 - [Min Stack](problems/src/stack/MinStack.java) (Easy)
-- [Valid Parentheses](problems/src/stack/ValidParentheses.java) (Easy))
+- [Valid Parentheses](problems/src/stack/ValidParentheses.java) (Easy)
 
 #### [String](problems/src/string)
 
@@ -137,6 +137,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Convert Preorder and Inorder traversal to Binary Tree](problems/src/tree/PreorderToBT.java) (Medium)
 - [Sorted Array to BST](problems/src/tree/SortedArrayToBST.java) (Medium)
 - [Valid Binary Search Tree](problems/src/tree/ValidBinarySearchTree.java) (Medium)
+- [Largest BST Subtree](problems/src/tree/LargestBSTSubtree.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
