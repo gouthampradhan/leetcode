@@ -138,6 +138,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Sorted Array to BST](problems/src/tree/SortedArrayToBST.java) (Medium)
 - [Valid Binary Search Tree](problems/src/tree/ValidBinarySearchTree.java) (Medium)
 - [Largest BST Subtree](problems/src/tree/LargestBSTSubtree.java) (Medium)
+- [Closest Binary Search Tree Value](problems/src/tree/ClosestBinarySearchTreeValue.java) (Easy)
 
 #### [Two Pointers](problems/src/two_pointers)
 
