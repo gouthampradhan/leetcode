@@ -123,6 +123,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [ReverseWords II](problems/src/string/ReverseWordsII.java) (Medium)
 - [String to Integer](problems/src/string/StringToInteger.java) (Medium)
 - [Text Justification](problems/src/string/TextJustification.java) (Hard)
+- [ZigZag Conversion](problems/src/string/ZigZagConversion.java) (Medium)
+
 
 #### [Tree](problems/src/tree)
 
