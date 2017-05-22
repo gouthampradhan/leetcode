@@ -30,6 +30,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Search in a Rotated Sorted Array](problems/src/binary_search/SearchRotatedSortedArray.java) (Medium)
 - [Search for a Range](problems/src/binary_search/SearchForARange.java) (Medium)
 - [Sqrt(x)](problems/src/binary_search/SqrtX.java) (Easy)
+- [Search Insert Position](problems/src/binary_search/SearchInsertPosition.java) (Easy)
 
 #### [Bit Manipulation](problems/src/bit_manipulation)
 
