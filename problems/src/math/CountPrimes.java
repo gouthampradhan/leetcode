@@ -26,7 +26,7 @@ public class CountPrimes
         else if(n == 3) return 1;
         BitSet set = new BitSet();
         n = n - 1;
-        int sqRt = new Double(Math.sqrt(n)).intValue();
+        int sqRt = (int)Math.sqrt(n);
         int count = n;
         for(int i = 2; i <= sqRt; i ++)
         {
