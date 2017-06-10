@@ -10,6 +10,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Set Matrix Zeroes](problems/src/array/SetMatrixZeroes.java) (Medium)
 - [Third Maximum Number](problems/src/array/ThirdMaximumNumber.java) (Easy)
 - [TwoSum II](problems/src/array/TwoSumII.java) (Easy)
+- [Can Place Flowers](problems/src/array/CanPlaceFlowers.java) (Easy)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -148,6 +149,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Largest BST Subtree](problems/src/tree/LargestBSTSubtree.java) (Medium)
 - [Closest Binary Search Tree Value](problems/src/tree/ClosestBinarySearchTreeValue.java) (Easy)
 - [Inorder Successor in BST](problems/src/tree/InorderSuccessorInBST.java) (Medium)
+- [Construct String From Binary Tree](problems/src/tree/ConstructStringFromBinaryTree.java) (Easy)
 
 #### [Two Pointers](problems/src/two_pointers)
 
