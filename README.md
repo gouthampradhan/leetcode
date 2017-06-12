@@ -158,3 +158,4 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Longest Substring Witout Repeats](problems/src/two_pointers/LongestSubstringWitoutRepeats.java) (Medium)
 - [Three Sum](problems/src/two_pointers/ThreeSum.java) (Medium)
 - [Trapping Rain Water](problems/src/two_pointers/TrappingRainWater.java) (Hard)
+- [3Sum Closest](problems/src/two_pointers/ThreeSumClosest.java) (Hard)
