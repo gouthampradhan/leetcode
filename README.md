@@ -123,6 +123,7 @@ My accepted leetcode solutions to some of the common interview problems.
 
 - [Min Stack](problems/src/stack/MinStack.java) (Easy)
 - [Valid Parentheses](problems/src/stack/ValidParentheses.java) (Easy)
+- [Largest Rectangle In Histogram](problems/src/stack/LargestRectangleInHistogram.java) (Hard)
 
 #### [String](problems/src/string)
 
