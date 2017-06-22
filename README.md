@@ -51,6 +51,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Minesweeper](problems/src/depth_first_search/Minesweeper.java) (Medium)
 - [Movie Recommend](problems/src/depth_first_search/MovieRecommend.java) (Medium)
 - [Number Of Islands](problems/src/depth_first_search/NumberOfIslands.java) (Medium)
+- [Course Schedule](problems/src/depth_first_search/CourseSchedule.java) (Medium)
 
 #### [Design](problems/src/design)
 
