@@ -74,6 +74,7 @@ My accepted leetcode solutions to some of the common interview problems.
 
 - [Best Time To Buy and Sell Stocks](problems/src/dynamic_programming/BestTimeToBuyAndSellStocks.java) (Easy)
 - [Climbing Stairs](problems/src/dynamic_programming/ClimbingStairs.java) (Easy)
+- [Coin Change](problems/src/dynamic_programming/CoinChange.java) (Medium)
 - [Coin Change 2](problems/src/dynamic_programming/CoinChange2.java) (Medium)
 - [Decode Ways](problems/src/dynamic_programming/DecodeWays.java) (Medium)
 - [House Robber](problems/src/dynamic_programming/HouseRobber.java) (Easy)
