@@ -35,7 +35,7 @@ public class GenerateParentheses {
         else {
             if(open < n)
                 backTrack(list, str.concat("("), open + 1, close, n);
-            if(close < open) //number of open should be less than close or else it can result in unbalanced parentheses
+            if(close < open) //number of close should be less than close or else it can result in unbalanced parentheses
                 backTrack(list, str.concat(")"), open, close + 1, n);
         }
     }
