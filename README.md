@@ -12,6 +12,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [TwoSum II](problems/src/array/TwoSumII.java) (Easy)
 - [Can Place Flowers](problems/src/array/CanPlaceFlowers.java) (Easy)
 - [Merge Intervals](problems/src/array/MergeIntervals.java) (Medium)
+- [First Missing Positive](problems/src/array/FirstMissingPositive.java) (Hard)
 
 #### [Backtracking](problems/src/backtracking)
 
