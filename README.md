@@ -95,8 +95,9 @@ My accepted leetcode solutions to some of the common interview problems.
 #### [Greedy](problems/src/greedy)
 
 - [Jump Game](problems/src/greedy/JumpGame.java) (Medium)
-- [Jump Game II](problems/src/greedy/JumpGameII.java) (Medium)
+- [Jump Game II](problems/src/greedy/JumpGameII.java) (Hard)
 - [Course Schedule III](problems/src/greedy/CourseScheduleIII.java) (Medium)
+- [GasStation](problems/src/greedy/GasStation.java) (Medium)
 
 #### [Hashing](problems/src/hashing)
 
