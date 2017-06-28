@@ -99,6 +99,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Course Schedule III](problems/src/greedy/CourseScheduleIII.java) (Medium)
 - [GasStation](problems/src/greedy/GasStation.java) (Medium)
 - [Non-Overlapping Intervals](problems/src/greedy/NonOverlappingIntervals.java) (Medium)
+- [Minimum Number of Arrows to Burst Balloons](problems/src/greedy/BurstBalloons.java) (Medium)
 
 #### [Hashing](problems/src/hashing)
 
