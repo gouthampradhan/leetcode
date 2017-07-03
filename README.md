@@ -125,6 +125,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Merge Two Sorted List](problems/src/linked_list/MergeTwoSortedList.java) (Easy)
 - [Paliandrome List](problems/src/linked_list/PaliandromeList.java) (Easy)
 - [Reverse Linked List](problems/src/linked_list/ReverseLinkedList.java) (Easy)
+- [Delete Node in a Linked List](problems/src/linked_list/DeleteNode.java) (Easy)
 
 #### [Math](problems/src/math)
 
