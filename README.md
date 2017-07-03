@@ -67,6 +67,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Serialize Deserialize Binary Tree](problems/src/design/SerializeDeserializeBinaryTree.java) (Hard)
 - [Design Twitter](problems/src/design/Twitter.java) (Medium)
 - [Tic-Tac-Toe](problems/src/design/TicTacToe.java) (Medium)
+- [Implement Trie (Prefix Tree)](problems/src/design/Trie.java) (Medium)
 
 #### [Divide and Conquer](problems/src/divide_and_conquer)
 
