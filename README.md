@@ -14,6 +14,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Merge Intervals](problems/src/array/MergeIntervals.java) (Medium)
 - [First Missing Positive](problems/src/array/FirstMissingPositive.java) (Hard)
 - [MaxProduct Of Three Numbers](problems/src/array/MaxProductOfThreeNumbers.java) (Easy)
+- [Missing Number](problems/src/array/MissingNumber.java) (Easy)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -177,3 +178,4 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Trapping Rain Water](problems/src/two_pointers/TrappingRainWater.java) (Hard)
 - [3Sum Closest](problems/src/two_pointers/ThreeSumClosest.java) (Medium)
 - [Move Zeroes](problems/src/two_pointers/MoveZeroes.java) (Easy)
+- [Remove Duplicates](problems/src/two_pointers/RemoveDuplicates.java) (Easy)
