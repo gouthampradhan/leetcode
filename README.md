@@ -27,7 +27,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Permutations II](problems/src/backtracking/PermutationsII.java) (Medium)
 - [SubSets](problems/src/backtracking/Subsets.java) (Medium)
 - [SubSet II](problems/src/backtracking/SubsetsII.java) (Medium)
-- [WordSearch](problems/src/backtracking/WordSearch.java) (Medium)
+- [Word Search](problems/src/backtracking/WordSearch.java) (Medium)
+- [Word Search II](problems/src/backtracking/WordSearchII.java) (Hard)
 - [Generate Parentheses](problems/src/backtracking/GenerateParentheses.java) (Medium)
 
 #### [Binary Search](problems/src/binary_search)
