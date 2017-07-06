@@ -128,6 +128,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Paliandrome List](problems/src/linked_list/PaliandromeList.java) (Easy)
 - [Reverse Linked List](problems/src/linked_list/ReverseLinkedList.java) (Easy)
 - [Delete Node in a Linked List](problems/src/linked_list/DeleteNode.java) (Easy)
+- [Reverse Nodes in k-Group](problems/src/linked_list/ReverseNodesKGroup.java) (Hard)
 
 #### [Math](problems/src/math)
 
