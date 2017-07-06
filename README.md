@@ -173,6 +173,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Inorder Successor in BST](problems/src/tree/InorderSuccessorInBST.java) (Medium)
 - [Construct String From Binary Tree](problems/src/tree/ConstructStringFromBinaryTree.java) (Easy)
 - [Flatten Binary Tree to Linked List](problems/src/tree/FlattenBinaryTree.java) (Medium)
+- [Populating Next Right Pointers in Each Node](problems/src/tree/NextRightPointer.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
