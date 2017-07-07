@@ -153,6 +153,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Text Justification](problems/src/string/TextJustification.java) (Hard)
 - [ZigZag Conversion](problems/src/string/ZigZagConversion.java) (Medium)
 - [Implement StrStr](problems/src/string/ImplementStrStr.java) (Easy)
+- [Excel Sheet Column Number](problems/src/string/ExcelSheetColumnNumber.java) (Easy)
 
 
 #### [Tree](problems/src/tree)
