@@ -40,6 +40,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Search Insert Position](problems/src/binary_search/SearchInsertPosition.java) (Easy)
 - [Median of Two Sorted Arrays](problems/src/binary_search/MedianOfTwoSortedArrays.java) (Hard)
 - [Pow(x, n)](problems/src/binary_search/PowXN.java) (Medium)
+- [Find Peak Element](problems/src/binary_search/FindPeakElement.java) (Medium)
 
 #### [Bit Manipulation](problems/src/bit_manipulation)
 
