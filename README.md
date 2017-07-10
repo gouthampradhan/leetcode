@@ -9,6 +9,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Rotate Matrix](problems/src/array/RotateMatrix.java) (Medium)
 - [Set Matrix Zeroes](problems/src/array/SetMatrixZeroes.java) (Medium)
 - [Third Maximum Number](problems/src/array/ThirdMaximumNumber.java) (Easy)
+- [Two Sum](problems/src/array/TwoSum.java) (Easy)
 - [TwoSum II](problems/src/array/TwoSumII.java) (Easy)
 - [Can Place Flowers](problems/src/array/CanPlaceFlowers.java) (Easy)
 - [Merge Intervals](problems/src/array/MergeIntervals.java) (Medium)
