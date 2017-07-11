@@ -86,6 +86,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Coin Change 2](problems/src/dynamic_programming/CoinChange2.java) (Medium)
 - [Decode Ways](problems/src/dynamic_programming/DecodeWays.java) (Medium)
 - [House Robber](problems/src/dynamic_programming/HouseRobber.java) (Easy)
+- [House Robber II](problems/src/dynamic_programming/HouseRobberII.java) (Medium)
 - [Longest Increasing Subsequence](problems/src/dynamic_programming/LongestIncreasingSubsequence.java) (Medium)
 - [Longest Paliandromic Substring](problems/src/dynamic_programming/LongestPaliandromicSubstring.java) (Medium)
 - [Longest Palindromic Subsequence](problems/src/dynamic_programming/LongestPalindromicSubsequence.java) (Medium)
@@ -156,6 +157,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [ZigZag Conversion](problems/src/string/ZigZagConversion.java) (Medium)
 - [Implement StrStr](problems/src/string/ImplementStrStr.java) (Easy)
 - [Excel Sheet Column Number](problems/src/string/ExcelSheetColumnNumber.java) (Easy)
+- [Compare Version Numbers](problems/src/string/CompareVersionNumbers.java) (Easy)
 
 
 #### [Tree](problems/src/tree)
@@ -179,6 +181,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Flatten Binary Tree to Linked List](problems/src/tree/FlattenBinaryTree.java) (Medium)
 - [Populating Next Right Pointers in Each Node](problems/src/tree/NextRightPointer.java) (Medium)
 - [Subtree of Another Tree](problems/src/tree/SubtreeOfAnotherTree.java) (Easy)
+- [Binary Tree Zigzag Level Order Traversal](problems/src/tree/ZigZagTraversal.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
