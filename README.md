@@ -99,6 +99,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Concatenated Words](problems/src/dynamic_programming/ConcatenatedWords.java) (Hard)
 - [Can I Win](problems/src/dynamic_programming/CanIWin.java) (Medium)
 - [Maximum Subarray](problems/src/dynamic_programming/MaximumSubarray.java) (Easy)
+- [Dungeon Game](problems/src/dynamic_programming/DungeonGame.java) (Hard)
 
 #### [Greedy](problems/src/greedy)
 
