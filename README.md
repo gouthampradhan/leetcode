@@ -160,6 +160,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Excel Sheet Column Number](problems/src/string/ExcelSheetColumnNumber.java) (Easy)
 - [Compare Version Numbers](problems/src/string/CompareVersionNumbers.java) (Easy)
 - [Valid Palindrome](problems/src/string/ValidPalindrome.java) (Easy)
+- [Simplify Path](problems/src/string/SimplifyPath.java) (Medium)
 
 
 #### [Tree](problems/src/tree)
