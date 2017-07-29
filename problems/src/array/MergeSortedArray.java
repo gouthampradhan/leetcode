@@ -17,29 +17,11 @@ public class MergeSortedArray {
     }
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int s = m + n;
-        int l = s - 1;
-        for(int i = m - 1; i >= 0; i --, l --){
-            nums1[l] = nums1[i];
-        }
-        l++; //last index of nums1
-        int i = 0, j = 0;
-        for(; i < s && l < s && j < n; i ++){
-            if(nums1[l] <= nums2[j]){
-                nums1[i] = nums1[l];
-                l++;
-            }
-            else{
-                nums1[i] = nums2[j];
-                j++;
-            }
-        }
-        while(l < s){
-            nums1[i++] = nums1[l++];
-        }
-        while(j < n){
-            nums1[i++] = nums2[j++];
-        }
+        int i = m + n - 1, j = m - 1, k = n - 1;
+        while(j >= 0 && k >= 0)
+            nums1[i--] = (nums1[j] > nums2[k]) ? nums1[j--] : nums2[k--];
+        while(k >= 0)
+            nums1[i--] = nums2[k--];
     }
 
 }
