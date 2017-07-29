@@ -140,6 +140,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Add Two Numbers](problems/src/math/AddTwoNumbers.java) (Medium)
 - [Count Primes](problems/src/math/CountPrimes.java) (Easy)
 - [Rotate Function](problems/src/math/RotateFunction.java) (Medium)
+- [Water and Jug Problem](problems/src/math/WaterAndJugProblem.java) (Medium)
 
 #### [Stack](problems/src/stack)
 
