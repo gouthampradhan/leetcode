@@ -148,6 +148,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Min Stack](problems/src/stack/MinStack.java) (Easy)
 - [Valid Parentheses](problems/src/stack/ValidParentheses.java) (Easy)
 - [Largest Rectangle In Histogram](problems/src/stack/LargestRectangleInHistogram.java) (Hard)
+- [Implement Queue using Stacks](problems/src/stack/MyQueue.java) (Easy)
 
 #### [String](problems/src/string)
 
