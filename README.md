@@ -17,6 +17,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [MaxProduct Of Three Numbers](problems/src/array/MaxProductOfThreeNumbers.java) (Easy)
 - [Missing Number](problems/src/array/MissingNumber.java) (Easy)
 - [Merge Sorted Array](problems/src/array/MergeSortedArray.java) (Easy)
+- [Rotate Array](problems/src/array/RotateArray.java) (Easy)
 
 #### [Backtracking](problems/src/backtracking)
 
