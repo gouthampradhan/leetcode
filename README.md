@@ -18,6 +18,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Missing Number](problems/src/array/MissingNumber.java) (Easy)
 - [Merge Sorted Array](problems/src/array/MergeSortedArray.java) (Easy)
 - [Rotate Array](problems/src/array/RotateArray.java) (Easy)
+- [Sort Colors](problems/src/array/SortColors.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
