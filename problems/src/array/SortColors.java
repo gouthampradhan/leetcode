@@ -15,6 +15,10 @@ package array;
 
  Could you come up with an one-pass algorithm using only constant space?
 
+ Solution:
+ The below solution works with one pass. The basic idea is to keep track of start and end index of
+ contiguous 1s and push the 0s to left of 1s and 2 to right of 1s.
+
  */
 public class SortColors {
     /**
