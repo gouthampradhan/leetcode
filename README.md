@@ -145,6 +145,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Rotate Function](problems/src/math/RotateFunction.java) (Medium)
 - [Water and Jug Problem](problems/src/math/WaterAndJugProblem.java) (Medium)
 - [Add Digits](problems/src/math/AddDigits.java) (Easy)
+- [Excel Sheet Column Title](problems/src/math/ExcelSheetColumnTitle.java) (Easy)
 
 #### [Stack](problems/src/stack)
 
