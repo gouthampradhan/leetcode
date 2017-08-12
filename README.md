@@ -19,6 +19,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Merge Sorted Array](problems/src/array/MergeSortedArray.java) (Easy)
 - [Rotate Array](problems/src/array/RotateArray.java) (Easy)
 - [Sort Colors](problems/src/array/SortColors.java) (Medium)
+- [Battleships in a Board](problems/src/array/BattleshipsInABoard.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
