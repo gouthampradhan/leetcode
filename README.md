@@ -146,6 +146,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Water and Jug Problem](problems/src/math/WaterAndJugProblem.java) (Medium)
 - [Add Digits](problems/src/math/AddDigits.java) (Easy)
 - [Excel Sheet Column Title](problems/src/math/ExcelSheetColumnTitle.java) (Easy)
+- [Roman to Integer](problems/src/math/RomanToInteger.java) (Easy)
 
 #### [Stack](problems/src/stack)
 
