@@ -195,6 +195,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Subtree of Another Tree](problems/src/tree/SubtreeOfAnotherTree.java) (Easy)
 - [Binary Tree Zigzag Level Order Traversal](problems/src/tree/ZigZagTraversal.java) (Medium)
 - [Binary Tree Inorder Traversal](problems/src/tree/BinaryTreeInorderTraversal.java) (Medium)
+- [Binary Search Tree Iterator](problems/src/tree/BSTIterator.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
