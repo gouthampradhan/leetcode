@@ -76,6 +76,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Design Twitter](problems/src/design/Twitter.java) (Medium)
 - [Tic-Tac-Toe](problems/src/design/TicTacToe.java) (Medium)
 - [Implement Trie (Prefix Tree)](problems/src/design/Trie.java) (Medium)
+- [Binary Search Tree Iterator](problems/src/design/BSTIterator.java) (Medium)
 
 #### [Divide and Conquer](problems/src/divide_and_conquer)
 
@@ -157,6 +158,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Largest Rectangle In Histogram](problems/src/stack/LargestRectangleInHistogram.java) (Hard)
 - [Implement Queue using Stacks](problems/src/stack/MyQueue.java) (Easy)
 
+
 #### [String](problems/src/string)
 
 - [First Unique Character In a String](problems/src/string/FirstUniqueCharacterInAString.java) (Easy)
@@ -171,7 +173,6 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Compare Version Numbers](problems/src/string/CompareVersionNumbers.java) (Easy)
 - [Valid Palindrome](problems/src/string/ValidPalindrome.java) (Easy)
 - [Simplify Path](problems/src/string/SimplifyPath.java) (Medium)
-
 
 #### [Tree](problems/src/tree)
 
@@ -196,7 +197,6 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Subtree of Another Tree](problems/src/tree/SubtreeOfAnotherTree.java) (Easy)
 - [Binary Tree Zigzag Level Order Traversal](problems/src/tree/ZigZagTraversal.java) (Medium)
 - [Binary Tree Inorder Traversal](problems/src/tree/BinaryTreeInorderTraversal.java) (Medium)
-- [Binary Search Tree Iterator](problems/src/tree/BSTIterator.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
