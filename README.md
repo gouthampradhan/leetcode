@@ -138,6 +138,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Reverse Linked List](problems/src/linked_list/ReverseLinkedList.java) (Easy)
 - [Delete Node in a Linked List](problems/src/linked_list/DeleteNode.java) (Easy)
 - [Reverse Nodes in k-Group](problems/src/linked_list/ReverseNodesKGroup.java) (Hard)
+- [Swap Nodes in Pairs](problems/src/linked_list/SwapNodesInPairs.java) (Medium)
 
 #### [Math](problems/src/math)
 
