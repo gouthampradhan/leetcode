@@ -77,6 +77,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Tic-Tac-Toe](problems/src/design/TicTacToe.java) (Medium)
 - [Implement Trie (Prefix Tree)](problems/src/design/Trie.java) (Medium)
 - [Binary Search Tree Iterator](problems/src/design/BSTIterator.java) (Medium)
+- [Design Search Autocomplete System](problems/src/design/AutocompleteSystem.java) (Hard)
 
 #### [Divide and Conquer](problems/src/divide_and_conquer)
 
