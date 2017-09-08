@@ -152,6 +152,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Add Digits](problems/src/math/AddDigits.java) (Easy)
 - [Excel Sheet Column Title](problems/src/math/ExcelSheetColumnTitle.java) (Easy)
 - [Roman to Integer](problems/src/math/RomanToInteger.java) (Easy)
+- [Bulb Switcher II](problems/src/math/BulbSwitcherII.java) (Medium)
 
 #### [Stack](problems/src/stack)
 
