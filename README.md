@@ -130,6 +130,7 @@ My accepted leetcode solutions to some of the common interview problems.
 #### [Heap](problems/src/heap)
 
 - [Sliding Window Maximum](problems/src/heap/SlidingWindowMaximum.java) (Hard)
+- [The Skyline Problem](problems/src/heap/TheSkylineProblem.java) (Hard)
 
 #### [Linked List](problems/src/linked_list)
 
