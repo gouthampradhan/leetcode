@@ -59,7 +59,9 @@ public class TheSkylineProblem {
         int[][] A = {{0, 30, 30}, {2, 9, 10}, {3, 7, 15}, {4, 8, 10}, {5, 12, 12}, {15, 20, 10}, {19, 24, 8}};
         //int[][] A = {{2,9,10}, {3,9,11}, {4,9,12}, {5,9,13}};
         List<int[]> result = new TheSkylineProblem().getSkyline(A);
-        result.forEach(System.out::println);
+        result.forEach(x -> {
+            System.out.println(x[0] + " " + x[1]);
+        });
     }
 
     public List<int[]> getSkyline(int[][] buildings) {
