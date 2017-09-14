@@ -1,33 +1,36 @@
 package tree;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
 /**
  * Created by gouthamvidyapradhan on 06/08/2017.
  * Given a binary tree, return the inorder traversal of its nodes' values.
-
- For example:
- Given binary tree [1,null,2,3],
- 1
- \
- 2
- /
- 3
- return [1,3,2].
-
- Note: Recursive solution is trivial, could you do it iteratively?
-
-
+ * <p>
+ * For example:
+ * Given binary tree [1,null,2,3],
+ * 1
+ * \
+ * 2
+ * /
+ * 3
+ * return [1,3,2].
+ * <p>
+ * Note: Recursive solution is trivial, could you do it iteratively?
  */
 public class BinaryTreeInorderTraversal {
     public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x) { val = x; }
+
+        TreeNode(int x) {
+            val = x;
+        }
     }
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         TreeNode root = new TreeNode(3);
         root.left = new TreeNode(4);
         root.left.left = new TreeNode(5);
@@ -45,8 +48,8 @@ public class BinaryTreeInorderTraversal {
         Stack<TreeNode> stack = new Stack<>();
         TreeNode curr = root;
         List<Integer> result = new ArrayList<>();
-        while(curr != null || !stack.isEmpty()){
-            while(curr != null){
+        while (curr != null || !stack.isEmpty()) {
+            while (curr != null) {
                 stack.push(curr);
                 curr = curr.left;
             }

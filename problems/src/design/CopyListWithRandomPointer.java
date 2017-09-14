@@ -2,28 +2,28 @@ package design;
 
 /**
  * Created by gouthamvidyapradhan on 11/03/2017.
- A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
-
- Return a deep copy of the list.
+ * A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
+ * <p>
+ * Return a deep copy of the list.
  */
-public class CopyListWithRandomPointer
-{
+public class CopyListWithRandomPointer {
 
-    static class RandomListNode
-    {
+    static class RandomListNode {
         int label;
         RandomListNode next, random;
-        RandomListNode(int x)
-        { this.label = x; }
+
+        RandomListNode(int x) {
+            this.label = x;
+        }
     }
 
     /**
      * Main method
+     *
      * @param args
      * @throws Exception
      */
-    public static void main(String[] args) throws Exception
-    {
+    public static void main(String[] args) throws Exception {
         RandomListNode one = new RandomListNode(1);
         one.next = null;
         one.random = one;
@@ -44,12 +44,10 @@ public class CopyListWithRandomPointer
         System.out.println();
     }
 
-    private RandomListNode copyRandomList(RandomListNode head)
-    {
-        if(head == null) return null;
+    private RandomListNode copyRandomList(RandomListNode head) {
+        if (head == null) return null;
         RandomListNode ite = head, next;
-        while(ite != null)
-        {
+        while (ite != null) {
             next = ite.next;
             RandomListNode node = new RandomListNode(ite.label);
             ite.next = node;
@@ -58,16 +56,15 @@ public class CopyListWithRandomPointer
         }
 
         ite = head;
-        while(ite != null)
-        {
-            if(ite.random != null)
+        while (ite != null) {
+            if (ite.random != null)
                 ite.next.random = ite.random.next;
             ite = ite.next.next;
         }
 
-        ite = head; RandomListNode copyIte = ite.next, copyHead = ite.next;
-        while(copyIte.next != null)
-        {
+        ite = head;
+        RandomListNode copyIte = ite.next, copyHead = ite.next;
+        while (copyIte.next != null) {
             ite.next = copyIte.next;
             copyIte.next = ite.next.next;
             copyIte = copyIte.next;

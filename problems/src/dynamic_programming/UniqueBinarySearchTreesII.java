@@ -5,98 +5,83 @@ import java.util.List;
 
 /**
  * Created by gouthamvidyapradhan on 31/03/2017.
- Given an integer n, generate all structurally unique BST's (binary search trees) that store values 1...n.
-
- For example,
- Given n = 3, your program should return all 5 unique BST's shown below.
-
- 1         3     3      2      1
- \       /     /      / \      \
- 3     2     1      1   3      2
- /     /       \                 \
- 2     1         2                 3
-
+ * Given an integer n, generate all structurally unique BST's (binary search trees) that store values 1...n.
+ * <p>
+ * For example,
+ * Given n = 3, your program should return all 5 unique BST's shown below.
+ * <p>
+ * 1         3     3      2      1
+ * \       /     /      / \      \
+ * 3     2     1      1   3      2
+ * /     /       \                 \
+ * 2     1         2                 3
  */
-public class UniqueBinarySearchTreesII
-{
-    public static class TreeNode
-    {
+public class UniqueBinarySearchTreesII {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x) { val = x; }
+
+        TreeNode(int x) {
+            val = x;
+        }
     }
 
     private List<TreeNode>[][] dp;
 
     /**
      * Main method
+     *
      * @param args
      * @throws Exception
      */
-    public static void main(String[] args) throws Exception
-    {
+    public static void main(String[] args) throws Exception {
         List<TreeNode> list = new UniqueBinarySearchTreesII().generateTrees(3);
     }
 
-    public List<TreeNode> generateTrees(int n)
-    {
-        if(n == 0) return new ArrayList<>();
+    public List<TreeNode> generateTrees(int n) {
+        if (n == 0) return new ArrayList<>();
         dp = new List[n + 1][n + 1];
         dp[0][0] = new ArrayList<>();
-        for(int i = 1, j = 1; i <= n; i ++, j ++)
-        {
+        for (int i = 1, j = 1; i <= n; i++, j++) {
             dp[i][j] = new ArrayList<>();
             dp[i][j].add(new TreeNode(i));
         }
         return dp(1, n, n);
     }
 
-    private List<TreeNode> dp(int s, int e, int n)
-    {
-        if(e < s) return null;
-        if(dp[s][e] != null) return dp[s][e];
+    private List<TreeNode> dp(int s, int e, int n) {
+        if (e < s) return null;
+        if (dp[s][e] != null) return dp[s][e];
         List<TreeNode> result = new ArrayList<>();
-        for(int i = s; i <= e; i ++)
-        {
+        for (int i = s; i <= e; i++) {
             List<TreeNode> left = dp(s, i - 1, n);
             List<TreeNode> right = dp(i + 1, e, n);
             List<TreeNode> temp = new ArrayList<>();
-            if(left != null)
-            {
-                for(TreeNode node : left)
-                {
+            if (left != null) {
+                for (TreeNode node : left) {
                     TreeNode root = new TreeNode(i);
                     root.left = node;
                     temp.add(root);
                 }
             }
-            if(right != null)
-            {
-                if(!temp.isEmpty())
-                {
-                    for(TreeNode root : temp)
-                    {
-                        for(TreeNode node : right)
-                        {
+            if (right != null) {
+                if (!temp.isEmpty()) {
+                    for (TreeNode root : temp) {
+                        for (TreeNode node : right) {
                             TreeNode newRoot = clone(root);
                             newRoot.right = node;
                             result.add(newRoot);
                         }
                     }
-                }
-                else
-                {
-                    for(TreeNode node : right)
-                    {
+                } else {
+                    for (TreeNode node : right) {
                         TreeNode root = new TreeNode(i);
                         root.right = node;
                         result.add(root);
                     }
                 }
-            }
-            else if(!temp.isEmpty())
-            {
+            } else if (!temp.isEmpty()) {
                 result.addAll(temp);
             }
         }
@@ -106,12 +91,12 @@ public class UniqueBinarySearchTreesII
 
     /**
      * Clone treeNode
+     *
      * @param root rootnode
      * @return cloned root
      */
-    private TreeNode clone(TreeNode root)
-    {
-        if(root == null) return null;
+    private TreeNode clone(TreeNode root) {
+        if (root == null) return null;
         TreeNode newNode = new TreeNode(root.val);
         newNode.left = clone(root.left);
         newNode.right = clone(root.right);

@@ -5,18 +5,19 @@ import java.util.Map;
 
 /**
  * Created by gouthamvidyapradhan on 12/08/2017.
- *
+ * <p>
  * Given a roman numeral, convert it to an integer.
-
- Input is guaranteed to be within the range from 1 to 3999.
+ * <p>
+ * Input is guaranteed to be within the range from 1 to 3999.
  */
 public class RomanToInteger {
     /**
      * Main method
+     *
      * @param args
      * @throws Exception
      */
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         System.out.println(new RomanToInteger().romanToInt("DXCIX"));
     }
 
@@ -32,11 +33,11 @@ public class RomanToInteger {
 
         String str = new StringBuilder(s).reverse().toString();
         int sum = 0, prev = -1;
-        for(int i = 0, l = str.length(); i < l; i++){
+        for (int i = 0, l = str.length(); i < l; i++) {
             int curr = map.get(str.charAt(i));
-            if(curr < prev){
+            if (curr < prev) {
                 sum -= curr;
-            } else{
+            } else {
                 sum += curr;
             }
             prev = curr;

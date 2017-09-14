@@ -2,18 +2,16 @@ package linked_list;
 
 /**
  * Created by gouthamvidyapradhan on 24/02/2017.
- Reverse a singly linked list.
+ * Reverse a singly linked list.
  */
-public class ReverseLinkedList
-{
+public class ReverseLinkedList {
     private ListNode newHead;
 
-    public static class ListNode
-    {
+    public static class ListNode {
         int val;
         ListNode next;
-        ListNode(int x)
-        {
+
+        ListNode(int x) {
             val = x;
             next = null;
         }
@@ -21,11 +19,11 @@ public class ReverseLinkedList
 
     /**
      * Main method
+     *
      * @param args
      * @throws Exception
      */
-    public static void main(String[] args) throws Exception
-    {
+    public static void main(String[] args) throws Exception {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
         ListNode node3 = new ListNode(3);
@@ -41,18 +39,15 @@ public class ReverseLinkedList
         System.out.println(newNode.val);
     }
 
-    public ListNode reverseList(ListNode head)
-    {
-        if(head == null) return null;
-        else if(head.next == null) return head;
+    public ListNode reverseList(ListNode head) {
+        if (head == null) return null;
+        else if (head.next == null) return head;
         reverse(head).next = null;
         return newHead;
     }
 
-    private ListNode reverse(ListNode head)
-    {
-        if(head.next == null)
-        {
+    private ListNode reverse(ListNode head) {
+        if (head.next == null) {
             newHead = head;
             return head;
         }

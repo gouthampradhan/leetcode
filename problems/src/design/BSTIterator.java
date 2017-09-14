@@ -5,13 +5,13 @@ import java.util.Stack;
 /**
  * Created by gouthamvidyapradhan on 13/08/2017.
  * Implement an iterator over a binary search tree (BST). Your iterator will be initialized with the root node of a BST.
-
- Calling next() will return the next smallest number in the BST.
-
- Note: next() and hasNext() should run in average O(1) time and uses O(h) memory, where h is the height of the tree.
-
- Solution: The below solution works in average O(1) time and worst case O(h) time using O(h) memory.
- Use a stack to keep track of min value node.
+ * <p>
+ * Calling next() will return the next smallest number in the BST.
+ * <p>
+ * Note: next() and hasNext() should run in average O(1) time and uses O(h) memory, where h is the height of the tree.
+ * <p>
+ * Solution: The below solution works in average O(1) time and worst case O(h) time using O(h) memory.
+ * Use a stack to keep track of min value node.
  */
 public class BSTIterator {
 
@@ -21,10 +21,13 @@ public class BSTIterator {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x) { val = x; }
+
+        TreeNode(int x) {
+            val = x;
+        }
     }
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         TreeNode root = new TreeNode(10);
         root.left = new TreeNode(5);
         root.left.left = new TreeNode(4);
@@ -53,14 +56,18 @@ public class BSTIterator {
         fillStack(root);
     }
 
-    /** @return whether we have a next smallest number */
+    /**
+     * @return whether we have a next smallest number
+     */
     public boolean hasNext() {
         return !stack.isEmpty();
     }
 
-    /** @return the next smallest number */
+    /**
+     * @return the next smallest number
+     */
     public int next() {
-        if(!stack.isEmpty()) {
+        if (!stack.isEmpty()) {
             TreeNode top = stack.pop();
             fillStack(top.right);
             return top.val;
@@ -70,11 +77,12 @@ public class BSTIterator {
 
     /**
      * Fill stack with min values
+     *
      * @param node curr node to begin with
      */
-    private void fillStack(TreeNode node){
+    private void fillStack(TreeNode node) {
         TreeNode ite = node;
-        while(ite != null){
+        while (ite != null) {
             stack.push(ite);
             ite = ite.left;
         }

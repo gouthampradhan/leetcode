@@ -4,39 +4,40 @@ import java.util.*;
 
 /**
  * Created by gouthamvidyapradhan on 11/03/2017.
- Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.
-
- Design an algorithm to serialize and deserialize a binary tree. There is no restriction on how your serialization/deserialization algorithm should work. You just need to ensure that a binary tree can be serialized to a string and this string can be deserialized to the original tree structure.
-
- For example, you may serialize the following tree
-
- 1
- / \
- 2   3
- / \
- 4   5
- as "[1,2,3,null,null,4,5]", just the same as how LeetCode OJ serializes a binary tree. You do not necessarily need to follow this format, so please be creative and come up with different approaches yourself.
- Note: Do not use class member/global/static variables to store states. Your serialize and deserialize algorithms should be stateless.
-
+ * Serialization is the process of converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.
+ * <p>
+ * Design an algorithm to serialize and deserialize a binary tree. There is no restriction on how your serialization/deserialization algorithm should work. You just need to ensure that a binary tree can be serialized to a string and this string can be deserialized to the original tree structure.
+ * <p>
+ * For example, you may serialize the following tree
+ * <p>
+ * 1
+ * / \
+ * 2   3
+ * / \
+ * 4   5
+ * as "[1,2,3,null,null,4,5]", just the same as how LeetCode OJ serializes a binary tree. You do not necessarily need to follow this format, so please be creative and come up with different approaches yourself.
+ * Note: Do not use class member/global/static variables to store states. Your serialize and deserialize algorithms should be stateless.
  */
-public class SerializeDeserializeBinaryTree
-{
-    public static class TreeNode
-    {
+public class SerializeDeserializeBinaryTree {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode(int x) { val = x; }
+
+        TreeNode(int x) {
+            val = x;
+        }
     }
 
     private static final String NULL = "X";
+
     /**
      * Main method
+     *
      * @param args
      * @throws Exception
      */
-    public static void main(String[] args) throws Exception
-    {
+    public static void main(String[] args) throws Exception {
         TreeNode root = new TreeNode(1);
         TreeNode two = new TreeNode(2);
         TreeNode three = new TreeNode(3);
@@ -63,25 +64,21 @@ public class SerializeDeserializeBinaryTree
     }
 
     // Encodes a tree to a single string.
-    public String serialize(TreeNode root)
-    {
-        if(root == null) return null;
+    public String serialize(TreeNode root) {
+        if (root == null) return null;
         List<String> list = new ArrayList<>();
         encode(root, list);
         StringBuilder sb = new StringBuilder();
         sb.append(list.get(0));
-        for(int i = 1, l = list.size(); i < l; i++)
-        {
+        for (int i = 1, l = list.size(); i < l; i++) {
             sb.append(",").append(list.get(i));
         }
         return sb.toString();
     }
 
-    private void encode(TreeNode root, List<String> list)
-    {
-        if(root == null) list.add(NULL);
-        else
-        {
+    private void encode(TreeNode root, List<String> list) {
+        if (root == null) list.add(NULL);
+        else {
             list.add(String.valueOf(root.val));
             encode(root.left, list);
             encode(root.right, list);
@@ -89,20 +86,18 @@ public class SerializeDeserializeBinaryTree
     }
 
     // Decodes your encoded data to tree.
-    public TreeNode deserialize(String data)
-    {
-        if(data == null || data.isEmpty()) return null;
+    public TreeNode deserialize(String data) {
+        if (data == null || data.isEmpty()) return null;
         StringTokenizer st = new StringTokenizer(data, ",");
         Queue<String> queue = new ArrayDeque<>();
-        while(st.hasMoreTokens())
+        while (st.hasMoreTokens())
             queue.offer(st.nextToken());
         return decode(queue);
     }
 
-    private TreeNode decode(Queue<String> queue)
-    {
+    private TreeNode decode(Queue<String> queue) {
         String node = queue.poll();
-        if(node.equals(NULL))
+        if (node.equals(NULL))
             return null;
         TreeNode root = new TreeNode(Integer.parseInt(node));
         root.left = decode(queue);

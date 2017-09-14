@@ -5,20 +5,19 @@ import java.util.Set;
 
 /**
  * Created by gouthamvidyapradhan on 23/02/2017.
- Given a linked list, determine if it has a cycle in it.
-
- Follow up:
- Can you solve it without using extra space?
+ * Given a linked list, determine if it has a cycle in it.
+ * <p>
+ * Follow up:
+ * Can you solve it without using extra space?
  */
-public class LinkedListCycle
-{
+public class LinkedListCycle {
     private static Set<Integer> hashCode = new HashSet<>();
-    static class ListNode
-    {
+
+    static class ListNode {
         int val;
         ListNode next;
-        ListNode(int x)
-        {
+
+        ListNode(int x) {
             val = x;
             next = null;
         }
@@ -26,10 +25,10 @@ public class LinkedListCycle
 
     /**
      * Main method
+     *
      * @param args
      */
-    public static void main(String[] args) throws Exception
-    {
+    public static void main(String[] args) throws Exception {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
         ListNode node3 = new ListNode(3);
@@ -39,19 +38,17 @@ public class LinkedListCycle
         System.out.println(new LinkedListCycle().hasCycle(node1));
     }
 
-    public boolean hasCycle(ListNode head)
-    {
+    public boolean hasCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
-        while(slow != null && fast != null)
-        {
+        while (slow != null && fast != null) {
             slow = slow.next;
             fast = fast.next;
-            if(fast != null)
+            if (fast != null)
                 fast = fast.next;
             else break;
-            if(fast != null && slow != null)
-                if(fast.equals(slow)) return true;
+            if (fast != null && slow != null)
+                if (fast.equals(slow)) return true;
         }
         return false;
     }
