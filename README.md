@@ -78,6 +78,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Implement Trie (Prefix Tree)](problems/src/design/Trie.java) (Medium)
 - [Binary Search Tree Iterator](problems/src/design/BSTIterator.java) (Medium)
 - [Design Search Autocomplete System](problems/src/design/AutocompleteSystem.java) (Hard)
+- [Design Excel Sum Formula](problems/src/design/Excel.java) (Hard)
 
 #### [Divide and Conquer](problems/src/divide_and_conquer)
 
