@@ -178,6 +178,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Compare Version Numbers](problems/src/string/CompareVersionNumbers.java) (Easy)
 - [Valid Palindrome](problems/src/string/ValidPalindrome.java) (Easy)
 - [Simplify Path](problems/src/string/SimplifyPath.java) (Medium)
+- [Permutation in String](problems/src/string/PermutationInString.java) (Medium)
 
 #### [Tree](problems/src/tree)
 
