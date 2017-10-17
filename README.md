@@ -35,6 +35,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Word Search](problems/src/backtracking/WordSearch.java) (Medium)
 - [Word Search II](problems/src/backtracking/WordSearchII.java) (Hard)
 - [Generate Parentheses](problems/src/backtracking/GenerateParentheses.java) (Medium)
+- [Remove Invalid Parentheses](problems/src/backtracking/RemoveInvalidParentheses.java) (Medium)
 
 #### [Binary Search](problems/src/binary_search)
 
