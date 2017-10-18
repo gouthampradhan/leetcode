@@ -35,8 +35,8 @@ public class MaximumSizeSubarraySumEqualsk {
     }
 
     public int maxSubArrayLen(int[] nums, int k) {
-        Map<Long, Integer> index = new HashMap<>();
-        long sum = 0L;
+        Map<Integer, Integer> index = new HashMap<>();
+        int sum = 0;
         for(int i = 0; i < nums.length; i ++){
             sum += nums[i];
             index.putIfAbsent(sum, i);
@@ -48,7 +48,7 @@ public class MaximumSizeSubarraySumEqualsk {
             if(sum == k){
                 ans = Math.max(ans, i + 1);
             } else{
-                long exp = sum - k;
+                int exp = sum - k;
                 if(index.containsKey(exp)){
                     int farLeft = index.get(exp);
                     if(farLeft < i){
@@ -57,7 +57,6 @@ public class MaximumSizeSubarraySumEqualsk {
                 }
             }
         }
-
         return ans;
     }
 
