@@ -20,6 +20,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Rotate Array](problems/src/array/RotateArray.java) (Easy)
 - [Sort Colors](problems/src/array/SortColors.java) (Medium)
 - [Battleships in a Board](problems/src/array/BattleshipsInABoard.java) (Medium)
+- [Find the Celebrity](problems/src/array/FindTheCelebrity.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
