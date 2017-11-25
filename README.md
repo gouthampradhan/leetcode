@@ -183,6 +183,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Valid Palindrome](problems/src/string/ValidPalindrome.java) (Easy)
 - [Simplify Path](problems/src/string/SimplifyPath.java) (Medium)
 - [Permutation in String](problems/src/string/PermutationInString.java) (Medium)
+- [Add Binary](problems/src/string/AddBinary.java) (Easy)
 
 #### [Tree](problems/src/tree)
 
