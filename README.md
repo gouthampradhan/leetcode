@@ -121,6 +121,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Non-Overlapping Intervals](problems/src/greedy/NonOverlappingIntervals.java) (Medium)
 - [Minimum Number of Arrows to Burst Balloons](problems/src/greedy/BurstBalloons.java) (Medium)
 - [Queue Reconstruction By Height](problems/src/greedy/QueueReconstructionByHeight.java) (Medium)
+- [Task Scheduler](problems/src/greedy/TaskScheduler.java) (Medium)
 
 #### [Hashing](problems/src/hashing)
 
@@ -136,6 +137,7 @@ My accepted leetcode solutions to some of the common interview problems.
 
 - [Sliding Window Maximum](problems/src/heap/SlidingWindowMaximum.java) (Hard)
 - [The Skyline Problem](problems/src/heap/TheSkylineProblem.java) (Hard)
+- [Meeting Rooms II](problems/src/heap/MeetingRoomsII.java) (Medium)
 
 #### [Linked List](problems/src/linked_list)
 
