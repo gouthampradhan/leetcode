@@ -21,6 +21,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Sort Colors](problems/src/array/SortColors.java) (Medium)
 - [Battleships in a Board](problems/src/array/BattleshipsInABoard.java) (Medium)
 - [Find the Celebrity](problems/src/array/FindTheCelebrity.java) (Medium)
+- [Meeting Rooms](problems/src/array/MeetingRooms.java) (Easy)
 
 #### [Backtracking](problems/src/backtracking)
 
