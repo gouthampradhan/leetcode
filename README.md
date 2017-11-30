@@ -83,6 +83,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Binary Search Tree Iterator](problems/src/design/BSTIterator.java) (Medium)
 - [Design Search Autocomplete System](problems/src/design/AutocompleteSystem.java) (Hard)
 - [Design Excel Sum Formula](problems/src/design/Excel.java) (Hard)
+- [Flatten Nested List Iterator](problems/src/design/NestedIterator.java) (Medium)
 
 #### [Divide and Conquer](problems/src/divide_and_conquer)
 
