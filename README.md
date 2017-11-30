@@ -54,6 +54,7 @@ My accepted leetcode solutions to some of the common interview problems.
 #### [Bit Manipulation](problems/src/bit_manipulation)
 
 - [Gray Code](problems/src/bit_manipulation/GrayCode.java) (Medium)
+- [Total Hamming Distance](problems/src/bit_manipulation/TotalHammingDistance.java) (Medium)
 
 #### [Breadth First Search](problems/src/breadth_first_search)
 
