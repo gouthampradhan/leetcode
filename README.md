@@ -69,6 +69,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Number Of Islands](problems/src/depth_first_search/NumberOfIslands.java) (Medium)
 - [Course Schedule](problems/src/depth_first_search/CourseSchedule.java) (Medium)
 - [Course Schedule II](problems/src/depth_first_search/CourseScheduleII.java) (Medium)
+- [Alien Dictionary](problems/src/depth_first_search/AlienDictionary.java) (Hard)
 
 #### [Design](problems/src/design)
 
