@@ -22,6 +22,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Battleships in a Board](problems/src/array/BattleshipsInABoard.java) (Medium)
 - [Find the Celebrity](problems/src/array/FindTheCelebrity.java) (Medium)
 - [Meeting Rooms](problems/src/array/MeetingRooms.java) (Easy)
+- [Longest Continuous Increasing Subsequence](problems/src/array/LongestIncreasingSubsequence.java) (Easy)
 
 #### [Backtracking](problems/src/backtracking)
 
