@@ -23,6 +23,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Find the Celebrity](problems/src/array/FindTheCelebrity.java) (Medium)
 - [Meeting Rooms](problems/src/array/MeetingRooms.java) (Easy)
 - [Longest Continuous Increasing Subsequence](problems/src/array/LongestIncreasingSubsequence.java) (Easy)
+- [Sparse Matrix Multiplication](problems/src/array/SparseMatrixMultiplication.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
