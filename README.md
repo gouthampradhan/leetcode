@@ -43,6 +43,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Remove Invalid Parentheses](problems/src/backtracking/RemoveInvalidParentheses.java) (Medium)
 - [Regular Expression Matching](problems/src/backtracking/RegularExpressionMatching.java) (Hard)
 - [Expression Add Operators](problems/src/backtracking/ExpressionAddOperators.java) (Hard)
+- [Expression Add Operators](problems/src/backtracking/ExpressionAddOperators.java) (Hard)
 
 #### [Binary Search](problems/src/binary_search)
 
@@ -54,7 +55,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Median of Two Sorted Arrays](problems/src/binary_search/MedianOfTwoSortedArrays.java) (Hard)
 - [Pow(x, n)](problems/src/binary_search/PowXN.java) (Medium)
 - [Find Peak Element](problems/src/binary_search/FindPeakElement.java) (Medium)
-- [First Bad Version](problems/src/binary_search/FirstBadVersion.java) (Easy)
+- [Target Sum](problems/src/binary_search/TargetSum.java) (Medium)
 
 #### [Bit Manipulation](problems/src/bit_manipulation)
 
