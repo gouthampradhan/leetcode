@@ -91,6 +91,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Design Search Autocomplete System](problems/src/design/AutocompleteSystem.java) (Hard)
 - [Design Excel Sum Formula](problems/src/design/Excel.java) (Hard)
 - [Flatten Nested List Iterator](problems/src/design/NestedIterator.java) (Medium)
+- [Add and Search Word - Data structure design](problems/src/design/WordDictionary.java) (Medium)
 
 #### [Divide and Conquer](problems/src/divide_and_conquer)
 
