@@ -227,6 +227,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Maximum Binary Tree](problems/src/tree/MaximumBinaryTree.java) (Medium)
 - [Find Bottom Left Tree Value](problems/src/tree/FindBottomLeftTreeValue.java) (Medium)
 - [Diameter of Binary Tree](problems/src/tree/DiameterOfBinaryTree.java) (Easy)
+- [Binary Tree Paths](problems/src/tree/BinaryTreePaths.java) (Easy)
 
 #### [Two Pointers](problems/src/two_pointers)
 
