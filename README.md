@@ -25,6 +25,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Longest Continuous Increasing Subsequence](problems/src/array/LongestIncreasingSubsequence.java) (Easy)
 - [Sparse Matrix Multiplication](problems/src/array/SparseMatrixMultiplication.java) (Medium)
 - [Read N Characters Given Read4](problems/src/array/ReadNCharacters.java) (Easy)
+- [Maximum Swap](problems/src/array/MaximumSwap.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
