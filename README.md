@@ -176,6 +176,9 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Roman to Integer](problems/src/math/RomanToInteger.java) (Easy)
 - [Bulb Switcher II](problems/src/math/BulbSwitcherII.java) (Medium)
 
+#### [Reservoir Sampling](problems/src/reservoir_sampling)
+- [Random Pick Index](problems/src/reservoir_sampling/RandomPickIndex.java) (Medium)
+
 #### [Stack](problems/src/stack)
 
 - [Min Stack](problems/src/stack/MinStack.java) (Easy)
