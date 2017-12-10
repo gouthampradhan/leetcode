@@ -44,7 +44,6 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Remove Invalid Parentheses](problems/src/backtracking/RemoveInvalidParentheses.java) (Medium)
 - [Regular Expression Matching](problems/src/backtracking/RegularExpressionMatching.java) (Hard)
 - [Expression Add Operators](problems/src/backtracking/ExpressionAddOperators.java) (Hard)
-- [Expression Add Operators](problems/src/backtracking/ExpressionAddOperators.java) (Hard)
 
 #### [Binary Search](problems/src/binary_search)
 
@@ -178,6 +177,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Bulb Switcher II](problems/src/math/BulbSwitcherII.java) (Medium)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
+
 - [Random Pick Index](problems/src/reservoir_sampling/RandomPickIndex.java) (Medium)
 
 #### [Stack](problems/src/stack)
