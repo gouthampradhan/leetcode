@@ -125,7 +125,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Maximum Sum of 3 Non-Overlapping Subarrays](problems/src/dynamic_programming/MaxSum3SubArray.java) (Hard)
 - [Maximal Square](problems/src/dynamic_programming/MaximalSquare.java) (Medium)
 - [Continuous Subarray Sum](problems/src/dynamic_programming/ContinuousSubarraySum.java) (Medium)
-- [Decode Ways II](problems/src/dynamic_programming/DecodeWaysII.java) (Medium)
+- [Decode Ways II](problems/src/dynamic_programming/DecodeWaysII.java) (Hard)
 
 #### [Greedy](problems/src/greedy)
 
