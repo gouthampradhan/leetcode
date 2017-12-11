@@ -76,6 +76,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Course Schedule](problems/src/depth_first_search/CourseSchedule.java) (Medium)
 - [Course Schedule II](problems/src/depth_first_search/CourseScheduleII.java) (Medium)
 - [Alien Dictionary](problems/src/depth_first_search/AlienDictionary.java) (Hard)
+- [Graph Valid Tree](problems/src/depth_first_search/GraphValidTree.java) (Medium)
 
 #### [Design](problems/src/design)
 
