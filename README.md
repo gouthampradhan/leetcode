@@ -26,6 +26,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Sparse Matrix Multiplication](problems/src/array/SparseMatrixMultiplication.java) (Medium)
 - [Read N Characters Given Read4](problems/src/array/ReadNCharacters.java) (Easy)
 - [Maximum Swap](problems/src/array/MaximumSwap.java) (Medium)
+- [H-Index](problems/src/array/HIndex.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -56,6 +57,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Pow(x, n)](problems/src/binary_search/PowXN.java) (Medium)
 - [Find Peak Element](problems/src/binary_search/FindPeakElement.java) (Medium)
 - [Target Sum](problems/src/binary_search/TargetSum.java) (Medium)
+- [H-Index II](problems/src/binary_search/HIndexII.java) (Medium)
 
 #### [Bit Manipulation](problems/src/bit_manipulation)
 
