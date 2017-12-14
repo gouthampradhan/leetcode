@@ -130,6 +130,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Continuous Subarray Sum](problems/src/dynamic_programming/ContinuousSubarraySum.java) (Medium)
 - [Decode Ways II](problems/src/dynamic_programming/DecodeWaysII.java) (Hard)
 - [Palindromic Substrings](problems/src/dynamic_programming/PalindromicSubstrings.java) (Medium)
+- [Number of Longest Increasing Subsequence](problems/src/dynamic_programming/NumberOfLIS.java) (Medium)
 
 #### [Greedy](problems/src/greedy)
 
