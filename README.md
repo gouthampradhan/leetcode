@@ -80,7 +80,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Course Schedule II](problems/src/depth_first_search/CourseScheduleII.java) (Medium)
 - [Alien Dictionary](problems/src/depth_first_search/AlienDictionary.java) (Hard)
 - [Graph Valid Tree](problems/src/depth_first_search/GraphValidTree.java) (Medium)
-- [Longest Consecutive Sequence](problems/src/depth_first_search/LongestConsecutiveSequence.java) (Medium)
+- [Longest Consecutive Sequence](problems/src/depth_first_search/LongestConsecutiveSequence.java) (Hard)
 
 #### [Design](problems/src/design)
 
