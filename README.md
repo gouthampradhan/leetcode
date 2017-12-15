@@ -27,6 +27,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Read N Characters Given Read4](problems/src/array/ReadNCharacters.java) (Easy)
 - [Maximum Swap](problems/src/array/MaximumSwap.java) (Medium)
 - [H-Index](problems/src/array/HIndex.java) (Medium)
+- [Insert Interval](problems/src/array/InsertInterval.java) (Hard)
 
 #### [Backtracking](problems/src/backtracking)
 
