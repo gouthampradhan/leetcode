@@ -155,6 +155,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Two Sum](problems/src/hashing/TwoSum.java) (Easy)
 - [Valid Anagram](problems/src/hashing/ValidAnagram.java) (Easy)
 - [Maximum Size Subarray Sum Equals k](problems/src/hashing/MaximumSizeSubarraySumEqualsk.java) (Medium)
+- [Contiguous Array](problems/src/hashing/ContiguousArray.java) (Medium)
 
 #### [Heap](problems/src/heap)
 
