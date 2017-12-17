@@ -136,6 +136,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Palindromic Substrings](problems/src/dynamic_programming/PalindromicSubstrings.java) (Medium)
 - [Number of Longest Increasing Subsequence](problems/src/dynamic_programming/NumberOfLIS.java) (Medium)
 - [Best Time to Buy and Sell Stock with Transaction Fee](problems/src/dynamic_programming/BestTimeToBuyAndSellStocksWithFee.java) (Medium)
+- [Combination Sum IV](problems/src/dynamic_programming/CombinationSumIV.java) (Medium)
 
 #### [Greedy](problems/src/greedy)
 
