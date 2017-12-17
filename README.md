@@ -28,6 +28,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Maximum Swap](problems/src/array/MaximumSwap.java) (Medium)
 - [H-Index](problems/src/array/HIndex.java) (Medium)
 - [Insert Interval](problems/src/array/InsertInterval.java) (Hard)
+- [Increasing Triplet Subsequence](problems/src/array/IncreasingTripletSubsequence.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
