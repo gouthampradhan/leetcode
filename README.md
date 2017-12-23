@@ -137,6 +137,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Number of Longest Increasing Subsequence](problems/src/dynamic_programming/NumberOfLIS.java) (Medium)
 - [Best Time to Buy and Sell Stock with Transaction Fee](problems/src/dynamic_programming/BestTimeToBuyAndSellStocksWithFee.java) (Medium)
 - [Combination Sum IV](problems/src/dynamic_programming/CombinationSumIV.java) (Medium)
+- [Paint House II](problems/src/dynamic_programming/PaintHouseII.java) (Hard)
 
 #### [Greedy](problems/src/greedy)
 
