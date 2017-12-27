@@ -84,6 +84,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Alien Dictionary](problems/src/depth_first_search/AlienDictionary.java) (Hard)
 - [Graph Valid Tree](problems/src/depth_first_search/GraphValidTree.java) (Medium)
 - [Longest Consecutive Sequence](problems/src/depth_first_search/LongestConsecutiveSequence.java) (Hard)
+- [Accounts Merge](problems/src/depth_first_search/AccountsMerge.java) (Medium)
 
 #### [Design](problems/src/design)
 
