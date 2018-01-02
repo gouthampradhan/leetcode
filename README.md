@@ -144,6 +144,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Paint House II](problems/src/dynamic_programming/PaintHouseII.java) (Hard)
 - [Split Array Largest Sum](problems/src/dynamic_programming/SplitArrayLargestSum.java) (Hard)
 - [Number Of Corner Rectangles](problems/src/dynamic_programming/CornerRectangles.java) (Medium)
+- [Burst Balloons](problems/src/dynamic_programming/BurstBalloons.java) (Hard)
 
 #### [Greedy](problems/src/greedy)
 
