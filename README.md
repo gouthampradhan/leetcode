@@ -30,6 +30,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Insert Interval](problems/src/array/InsertInterval.java) (Hard)
 - [Increasing Triplet Subsequence](problems/src/array/IncreasingTripletSubsequence.java) (Medium)
 - [K Empty Slots](problems/src/array/KEmptySlots.java) (Hard)
+- [Subarray Sum Equals K](problems/src/array/SubarraySumEqualsK.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
