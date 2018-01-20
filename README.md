@@ -211,6 +211,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Largest Rectangle In Histogram](problems/src/stack/LargestRectangleInHistogram.java) (Hard)
 - [Implement Queue using Stacks](problems/src/stack/MyQueue.java) (Easy)
 - [Maximal Rectangle](problems/src/stack/MaximalRectangle.java) (Hard)
+- [Exclusive Time of Functions](problems/src/stack/ExclusiveTimeOfFunctions.java) (Medium)
 
 
 #### [String](problems/src/string)
