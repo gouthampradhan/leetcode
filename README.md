@@ -231,6 +231,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Add Binary](problems/src/string/AddBinary.java) (Easy)
 - [Valid Palindrome II](problems/src/string/ValidPalindromeII.java) (Easy)
 - [One Edit Distance](problems/src/string/OneEditDistance.java) (Medium)
+- [Count and Say](problems/src/string/CountAndSay.java) (Easy)
 
 #### [Tree](problems/src/tree)
 
