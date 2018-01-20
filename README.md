@@ -277,5 +277,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [3Sum Closest](problems/src/two_pointers/ThreeSumClosest.java) (Medium)
 - [Move Zeroes](problems/src/two_pointers/MoveZeroes.java) (Easy)
 - [Remove Duplicates](problems/src/two_pointers/RemoveDuplicates.java) (Easy)
+- [Remove Duplicates II](problems/src/two_pointers/RemoveDuplicatesII.java) (Medium)
 - [Minimum Size Subarray Sum](problems/src/two_pointers/MinimumSizeSubarraySum.java) (Medium)
 - [Minimum Window Substring](problems/src/two_pointers/MinimumWindowSubstring.java) (Hard)
+
