@@ -49,6 +49,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Remove Invalid Parentheses](problems/src/backtracking/RemoveInvalidParentheses.java) (Medium)
 - [Regular Expression Matching](problems/src/backtracking/RegularExpressionMatching.java) (Hard)
 - [Expression Add Operators](problems/src/backtracking/ExpressionAddOperators.java) (Hard)
+- [Wildcard Matching](problems/src/backtracking/WildcardMatching.java) (Hard)
 
 #### [Binary Search](problems/src/binary_search)
 
