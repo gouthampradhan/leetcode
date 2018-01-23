@@ -268,6 +268,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Sum of Left Leaves](problems/src/tree/SumofLeftLeaves.java) (Easy)
 - [Two Sum IV - Input is a BST](problems/src/tree/TwoSumIV.java) (Easy)
 - [Average of Levels in Binary Tree](problems/src/tree/AverageOfLevelsInBinaryTree.java) (Easy)
+- [Convert Binary Search Tree to Sorted Doubly Linked List](problems/src/tree/BSTtoDoublyLinkedList.java) (Easy)
 
 #### [Two Pointers](problems/src/two_pointers)
 
