@@ -149,6 +149,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Number Of Corner Rectangles](problems/src/dynamic_programming/CornerRectangles.java) (Medium)
 - [Burst Balloons](problems/src/dynamic_programming/BurstBalloons.java) (Hard)
 - [Largest Plus Sign](problems/src/dynamic_programming/LargestPlusSign.java) (Medium)
+- [Palindrome Pairs](problems/src/dynamic_programming/PalindromePairs.java) (Hard)
 
 #### [Greedy](problems/src/greedy)
 
