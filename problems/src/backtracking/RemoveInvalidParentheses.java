@@ -16,69 +16,71 @@ import java.util.Set;
  "(a)())()" -> ["(a)()()", "(a())()"]
  ")(" -> [""]
 
- Solution: O(N x 2 ^ N) generate all combination of unique parentheses and return a list of valid parentheses which
- has the string length maximum
+ Solution: O(N x 2 ^ N) backtrack and generate all combination of unique parentheses. Keep track of a counter which
+ keeps track of validity of parentheses. Prune the search space by checking for validity of parenthesis on the fly
+ by checking if the counter goes below 0 in which case a valid combination is impossible and also keep track
+ of selected count and total count of characters in each state to check if the difference between them is above the min
+ threshold.
 
  */
 public class RemoveInvalidParentheses {
+
+    private Set<String> done;
+    private int maxLen = Integer.MIN_VALUE;
+    private int minDiff = Integer.MAX_VALUE;
     /**
      * Main method
      * @param args
      * @throws Exception
      */
     public static void main(String[] args) throws Exception{
-        List<String> result = new RemoveInvalidParentheses().removeInvalidParentheses("()())()");
+        List<String> result = new RemoveInvalidParentheses().removeInvalidParentheses("())())");
         result.forEach(System.out::println);
     }
 
+
     public List<String> removeInvalidParentheses(String s) {
-        Set<String> set = new HashSet<>();
+        done = new HashSet<>();
         List<String> result = new ArrayList<>();
-        result.add("");
-        //generate all combinations of unique parentheses
-        for(int i = s.length() - 1; i >= 0; i --){
-            for(int j = 0, l = result.size(); j < l; j++){
-                String curr = s.charAt(i) + result.get(j);
-                if(!set.contains(curr)){
-                    result.add(curr);
-                    set.add(curr);
-                }
-            }
-        }
-        //check for max length
-        int maxLen = 0;
-        for(String r : result){
-            if(isValid(r)){
-                maxLen = Math.max(maxLen, r.length());
-            }
-        }
-        //prepare the final list
-        List<String> finalR = new ArrayList<>();
-        for(String r : result){
-            if(isValid(r)) {
-                if(r.length() == maxLen){
-                    finalR.add(r);
-                }
-            }
-        }
-        return finalR;
+        backTrack(s, 0, 0, result, "", 0, 0);
+        return result;
     }
 
-    /**
-     * Check if the given string of parentheses is valid or not
-     * @param s String of parentheses
-     * @return true if valid
-     */
-    private boolean isValid(String s){
-        int count = 0;
-        for(int i = 0, l = s.length(); i < l; i ++){
-            if(s.charAt(i) == '('){
-                count ++;
-            } else if(s.charAt(i) == ')'){
-                count --;
-                if(count < 0) return false;
+    private void backTrack(String s, int i, int count, List<String> result, String state, int selected, int total){
+        if(i >= s.length()){
+            if(count == 0){
+                if(selected >= maxLen){
+                    result.add(state);
+                    maxLen = selected;
+                    minDiff = total - selected;
+                }
+            }
+        } else{
+            done.add(state);
+            char c = s.charAt(i);
+            if(c == '('){
+                if(!done.contains(state + "(")){
+                    backTrack(s, i + 1, count + 1, result, state + "(", selected + 1, total + 1);
+                }
+                if((total - selected + 1) <= minDiff){
+                    backTrack(s, i + 1, count, result, state, selected, total + 1);
+                }
+            } else if(c == ')'){
+                if(count - 1 < 0){
+                    if((total - selected + 1) <= minDiff){
+                        backTrack(s, i + 1, count, result, state, selected, total + 1);
+                    }
+                } else{
+                    if(!done.contains(state + ")")) {
+                        backTrack(s, i + 1, count - 1, result, state + ")", selected + 1, total + 1);
+                    }
+                    if((total - selected + 1) <= minDiff){
+                        backTrack(s, i + 1, count, result, state, selected, total + 1);
+                    }
+                }
+            } else {
+                backTrack(s, i + 1, count, result, state + c, selected + 1, total + 1);
             }
         }
-        return count == 0;
     }
 }
