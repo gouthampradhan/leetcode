@@ -203,6 +203,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Excel Sheet Column Title](problems/src/math/ExcelSheetColumnTitle.java) (Easy)
 - [Roman to Integer](problems/src/math/RomanToInteger.java) (Easy)
 - [Bulb Switcher II](problems/src/math/BulbSwitcherII.java) (Medium)
+- [Global and Local Inversions](problems/src/math/GlobalAndLocalInversions.java) (Medium)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 
