@@ -31,6 +31,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Increasing Triplet Subsequence](problems/src/array/IncreasingTripletSubsequence.java) (Medium)
 - [K Empty Slots](problems/src/array/KEmptySlots.java) (Hard)
 - [Subarray Sum Equals K](problems/src/array/SubarraySumEqualsK.java) (Medium)
+- [Pour Water](problems/src/array/PourWater.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -217,6 +218,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Implement Queue using Stacks](problems/src/stack/MyQueue.java) (Easy)
 - [Maximal Rectangle](problems/src/stack/MaximalRectangle.java) (Hard)
 - [Exclusive Time of Functions](problems/src/stack/ExclusiveTimeOfFunctions.java) (Medium)
+- [Basic Calculator](problems/src/stack/BasicCalculator.java) (Hard)
 
 
 #### [String](problems/src/string)
