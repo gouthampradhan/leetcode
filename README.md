@@ -32,6 +32,9 @@ My accepted leetcode solutions to some of the common interview problems.
 - [K Empty Slots](problems/src/array/KEmptySlots.java) (Hard)
 - [Subarray Sum Equals K](problems/src/array/SubarraySumEqualsK.java) (Medium)
 - [Pour Water](problems/src/array/PourWater.java) (Medium)
+- [Relative Ranks](problems/src/array/RelativeRanks.java) (Easy)
+- [Next Greater Element I](problems/src/array/NextGreaterElementI.java) (Easy)
+- [Largest Number At Least Twice of Others](problems/src/array/LargestNumberAtLeastTwice.java) (Easy)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -77,6 +80,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Word Ladder](problems/src/breadth_first_search/WordLadder.java) (Medium)
 - [Word Ladder II](problems/src/breadth_first_search/WordLadderII.java) (Hard)
 - [Walls and Gates](problems/src/breadth_first_search/WallsAndGates.java) (Medium)
+- [Open the lock](problems/src/breadth_first_search/OpenTheLock.java) (Medium)
 
 #### [Depth First Search](problems/src/depth_first_search)
 
