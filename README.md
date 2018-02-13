@@ -156,6 +156,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Largest Plus Sign](problems/src/dynamic_programming/LargestPlusSign.java) (Medium)
 - [Palindrome Pairs](problems/src/dynamic_programming/PalindromePairs.java) (Hard)
 - [Cherry Pickup](problems/src/dynamic_programming/CherryPickup.java) (Hard)
+- [Knight Probability in Chessboard](problems/src/dynamic_programming/KnightProbabilityInChessboard.java) (Medium)
 
 #### [Greedy](problems/src/greedy)
 
@@ -280,6 +281,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Average of Levels in Binary Tree](problems/src/tree/AverageOfLevelsInBinaryTree.java) (Easy)
 - [Convert Binary Search Tree to Sorted Doubly Linked List](problems/src/tree/BSTtoDoublyLinkedList.java) (Easy)
 - [Same Tree](problems/src/tree/SameTree.java) (Easy)
+- [Binary Tree Longest Consecutive Sequence II](problems/src/tree/BinaryTreeLongestConsecutiveSequenceII.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
