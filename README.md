@@ -122,6 +122,8 @@ My accepted leetcode solutions to some of the common interview problems.
 #### [Dynamic Programming](problems/src/dynamic_programming)
 
 - [Best Time To Buy and Sell Stocks](problems/src/dynamic_programming/BestTimeToBuyAndSellStocks.java) (Easy)
+- [Best Time to Buy and Sell Stock III](problems/src/dynamic_programming/BestTimeToBuyAndSellStockIII.java) (Hard)
+- [Best Time to Buy and Sell Stock with Transaction Fee](problems/src/dynamic_programming/BestTimeToBuyAndSellStocksWithFee.java) (Medium)
 - [Climbing Stairs](problems/src/dynamic_programming/ClimbingStairs.java) (Easy)
 - [Coin Change](problems/src/dynamic_programming/CoinChange.java) (Medium)
 - [Coin Change 2](problems/src/dynamic_programming/CoinChange2.java) (Medium)
@@ -148,7 +150,6 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Decode Ways II](problems/src/dynamic_programming/DecodeWaysII.java) (Hard)
 - [Palindromic Substrings](problems/src/dynamic_programming/PalindromicSubstrings.java) (Medium)
 - [Number of Longest Increasing Subsequence](problems/src/dynamic_programming/NumberOfLIS.java) (Medium)
-- [Best Time to Buy and Sell Stock with Transaction Fee](problems/src/dynamic_programming/BestTimeToBuyAndSellStocksWithFee.java) (Medium)
 - [Combination Sum IV](problems/src/dynamic_programming/CombinationSumIV.java) (Medium)
 - [Paint House II](problems/src/dynamic_programming/PaintHouseII.java) (Hard)
 - [Split Array Largest Sum](problems/src/dynamic_programming/SplitArrayLargestSum.java) (Hard)
@@ -158,6 +159,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Palindrome Pairs](problems/src/dynamic_programming/PalindromePairs.java) (Hard)
 - [Cherry Pickup](problems/src/dynamic_programming/CherryPickup.java) (Hard)
 - [Knight Probability in Chessboard](problems/src/dynamic_programming/KnightProbabilityInChessboard.java) (Medium)
+
 
 #### [Greedy](problems/src/greedy)
 
