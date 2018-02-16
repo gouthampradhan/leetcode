@@ -35,6 +35,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Relative Ranks](problems/src/array/RelativeRanks.java) (Easy)
 - [Next Greater Element I](problems/src/array/NextGreaterElementI.java) (Easy)
 - [Largest Number At Least Twice of Others](problems/src/array/LargestNumberAtLeastTwice.java) (Easy)
+- [Minimum Moves to Equal Array Elements II](problems/src/array/MinimumMovesToEqualArray.java) (Median)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -95,6 +96,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Longest Consecutive Sequence](problems/src/depth_first_search/LongestConsecutiveSequence.java) (Hard)
 - [Accounts Merge](problems/src/depth_first_search/AccountsMerge.java) (Medium)
 - [CloneGraph](problems/src/depth_first_search/CloneGraph.java) (Medium)
+- [Island Perimeter](problems/src/depth_first_search/IslandPerimeter.java) (Easy)
 
 #### [Design](problems/src/design)
 
