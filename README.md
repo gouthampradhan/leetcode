@@ -249,6 +249,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [One Edit Distance](problems/src/string/OneEditDistance.java) (Medium)
 - [Count and Say](problems/src/string/CountAndSay.java) (Easy)
 - [Multiply Strings](problems/src/string/MultiplyStrings.java) (Medium)
+- [Longest Word in Dictionary through Deleting](problems/src/string/LongestWordInDictonary.java) (Medium)
 
 #### [Tree](problems/src/tree)
 
@@ -285,6 +286,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Convert Binary Search Tree to Sorted Doubly Linked List](problems/src/tree/BSTtoDoublyLinkedList.java) (Easy)
 - [Same Tree](problems/src/tree/SameTree.java) (Easy)
 - [Binary Tree Longest Consecutive Sequence II](problems/src/tree/BinaryTreeLongestConsecutiveSequenceII.java) (Medium)
+- [Minimum Absolute Difference in BST](problems/src/tree/MinimumAbsoluteDifferenceInBST.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
