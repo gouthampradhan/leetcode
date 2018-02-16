@@ -213,6 +213,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Roman to Integer](problems/src/math/RomanToInteger.java) (Easy)
 - [Bulb Switcher II](problems/src/math/BulbSwitcherII.java) (Medium)
 - [Global and Local Inversions](problems/src/math/GlobalAndLocalInversions.java) (Medium)
+- [Solve the Equation](problems/src/math/SolveTheEquation.java) (Medium)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 
