@@ -63,15 +63,15 @@ public class SolveTheEquation {
             char c = s.charAt(i);
             if(c == '-'){
                 if(!num.isEmpty()){
-                    xSum = calculate(num, isNeg)[0];
-                    rest = calculate(num, isNeg)[1];
+                    xSum = calculate(num, isNeg, xSum, rest)[0];
+                    rest = calculate(num, isNeg, xSum, rest)[1];
                 }
                 isNeg = true;
                 num = "";
             }else if(c == '+'){
                 if(!num.isEmpty()){
-                    xSum = calculate(num, isNeg)[0];
-                    rest = calculate(num, isNeg)[1];
+                    xSum = calculate(num, isNeg, xSum, rest)[0];
+                    rest = calculate(num, isNeg, xSum, rest)[1];
                 }
                 isNeg = false;
                 num = "";
@@ -80,8 +80,8 @@ public class SolveTheEquation {
             }
         }
         if(!num.isEmpty()){
-            xSum = calculate(num, isNeg)[0];
-            rest = calculate(num, isNeg)[1];
+            xSum = calculate(num, isNeg, xSum, rest)[0];
+            rest = calculate(num, isNeg, xSum, rest)[1];
         }
         if(isLeft){
             xL = xSum;
@@ -92,23 +92,25 @@ public class SolveTheEquation {
         }
     }
 
-    private int[] calculate(String num, boolean isNeg){
+    private int[] calculate(String num, boolean isNeg, int xSum, int rest){
         int[] A = new int[2];
         if(num.contains("x")){
             num = num.substring(0, num.length() - 1);
             if(isNeg){
-                A[0] -= num.isEmpty() ? 1 : Integer.parseInt(num);
+                xSum -= num.isEmpty() ? 1 : Integer.parseInt(num);
             } else{
-                A[0] += num.isEmpty() ? 1 : Integer.parseInt(num);
+                xSum += num.isEmpty() ? 1 : Integer.parseInt(num);
             }
 
         } else{
             if(isNeg){
-                A[1] -= Integer.parseInt(num);
+                rest -= Integer.parseInt(num);
             } else{
-                A[1] += Integer.parseInt(num);
+                rest += Integer.parseInt(num);
             }
         }
+        A[0] = xSum;
+        A[1] = rest;
         return A;
     }
 
