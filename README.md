@@ -36,6 +36,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Next Greater Element I](problems/src/array/NextGreaterElementI.java) (Easy)
 - [Largest Number At Least Twice of Others](problems/src/array/LargestNumberAtLeastTwice.java) (Easy)
 - [Minimum Moves to Equal Array Elements II](problems/src/array/MinimumMovesToEqualArray.java) (Median)
+- [Image Smoother](problems/src/array/ImageSmoother.java) (Easy)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -290,6 +291,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Same Tree](problems/src/tree/SameTree.java) (Easy)
 - [Binary Tree Longest Consecutive Sequence II](problems/src/tree/BinaryTreeLongestConsecutiveSequenceII.java) (Medium)
 - [Minimum Absolute Difference in BST](problems/src/tree/MinimumAbsoluteDifferenceInBST.java) (Medium)
+- [Equal Tree Partition](problems/src/tree/EqualTreePartition.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
