@@ -37,6 +37,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Largest Number At Least Twice of Others](problems/src/array/LargestNumberAtLeastTwice.java) (Easy)
 - [Minimum Moves to Equal Array Elements II](problems/src/array/MinimumMovesToEqualArray.java) (Median)
 - [Image Smoother](problems/src/array/ImageSmoother.java) (Easy)
+- [Minimum Index Sum of Two Lists](problems/src/array/MinimumIndexSumOfTwoLists.java) (Easy)
 
 #### [Backtracking](problems/src/backtracking)
 
