@@ -257,6 +257,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Count and Say](problems/src/string/CountAndSay.java) (Easy)
 - [Multiply Strings](problems/src/string/MultiplyStrings.java) (Medium)
 - [Longest Word in Dictionary through Deleting](problems/src/string/LongestWordInDictonary.java) (Medium)
+- [Isomorphic Strings](problems/src/string/IsomorphicStrings.java) (Easy)
 
 #### [Tree](problems/src/tree)
 
