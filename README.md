@@ -235,6 +235,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Maximal Rectangle](problems/src/stack/MaximalRectangle.java) (Hard)
 - [Exclusive Time of Functions](problems/src/stack/ExclusiveTimeOfFunctions.java) (Medium)
 - [Basic Calculator](problems/src/stack/BasicCalculator.java) (Hard)
+- [Decode String](problems/src/stack/DecodeString.java) (Medium)
 
 
 #### [String](problems/src/string)
