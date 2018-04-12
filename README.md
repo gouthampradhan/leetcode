@@ -261,6 +261,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Longest Word in Dictionary through Deleting](problems/src/string/LongestWordInDictonary.java) (Medium)
 - [Isomorphic Strings](problems/src/string/IsomorphicStrings.java) (Easy)
 - [String Compression](problems/src/string/StringCompression.java) (Easy)
+- [Longest Common Prefix](problems/src/string/LongestCommonPrefix.java) (Easy)
 
 #### [Tree](problems/src/tree)
 
