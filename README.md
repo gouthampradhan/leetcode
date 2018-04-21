@@ -263,6 +263,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Isomorphic Strings](problems/src/string/IsomorphicStrings.java) (Easy)
 - [String Compression](problems/src/string/StringCompression.java) (Easy)
 - [Longest Common Prefix](problems/src/string/LongestCommonPrefix.java) (Easy)
+- [Find the Closest Palindrome](problems/src/string/FindTheClosestPalindrome.java) (Hard)
 
 #### [Tree](problems/src/tree)
 
