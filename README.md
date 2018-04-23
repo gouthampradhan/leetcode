@@ -100,6 +100,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Accounts Merge](problems/src/depth_first_search/AccountsMerge.java) (Medium)
 - [CloneGraph](problems/src/depth_first_search/CloneGraph.java) (Medium)
 - [Island Perimeter](problems/src/depth_first_search/IslandPerimeter.java) (Easy)
+- [Number of Distinct Islands](problems/src/depth_first_search/NumberOfDistinctIslands.java) (Medium)
 
 #### [Design](problems/src/design)
 
