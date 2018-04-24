@@ -72,11 +72,11 @@ public class NumberOfDistinctIslands {
             int newC = c + C[i];
             if(newR >= 0 && newC >= 0 && newR < grid.length && newC < grid[0].length){
                 if(!done[newR][newC] && grid[newR][newC] == 1){
-                    if(R[i] == 0 && C[i] == 1){
+                    if(i == 0){
                         sb.append("R");
-                    } else if(R[i] == 1 && C[i] == 0){
+                    } else if(i == 1){
                         sb.append("D");
-                    } else if(R[i] == 0 && C[i] == -1){
+                    } else if(i == 2){
                         sb.append("L");
                     } else{
                         sb.append("U");
