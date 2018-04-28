@@ -101,6 +101,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [CloneGraph](problems/src/depth_first_search/CloneGraph.java) (Medium)
 - [Island Perimeter](problems/src/depth_first_search/IslandPerimeter.java) (Easy)
 - [Number of Distinct Islands](problems/src/depth_first_search/NumberOfDistinctIslands.java) (Medium)
+- [Number of Distinct Islands II](problems/src/depth_first_search/NumberOfDistinctIslandsII.java) (Hard)
 
 #### [Design](problems/src/design)
 
