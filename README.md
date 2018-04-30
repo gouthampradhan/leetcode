@@ -142,6 +142,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Longest Paliandromic Substring](problems/src/dynamic_programming/LongestPaliandromicSubstring.java) (Medium)
 - [Longest Palindromic Subsequence](problems/src/dynamic_programming/LongestPalindromicSubsequence.java) (Medium)
 - [Maximum Product Subarray](problems/src/dynamic_programming/MaximumProductSubarray.java) (Medium)
+- [Min Cost Climbing Stairs](problems/src/dynamic_programming/MinCostClimbingStairs.java) (Medium)
 - [Palindrome Partitioning II](problems/src/dynamic_programming/PalindromePartitioningII.java) (Hard)
 - [UniqueBinary Search Trees](problems/src/dynamic_programming/UniqueBinarySearchTrees.java) (Medium)
 - [Unique Binary Search Trees II](problems/src/dynamic_programming/UniqueBinarySearchTreesII.java) (Medium)
