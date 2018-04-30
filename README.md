@@ -268,6 +268,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [String Compression](problems/src/string/StringCompression.java) (Easy)
 - [Longest Common Prefix](problems/src/string/LongestCommonPrefix.java) (Easy)
 - [Find the Closest Palindrome](problems/src/string/FindTheClosestPalindrome.java) (Hard)
+- [Monotone Increasing Digits](problems/src/string/MonotoneIncreasingDigits.java) (Medium)
 
 #### [Tree](problems/src/tree)
 
