@@ -142,7 +142,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Longest Paliandromic Substring](problems/src/dynamic_programming/LongestPaliandromicSubstring.java) (Medium)
 - [Longest Palindromic Subsequence](problems/src/dynamic_programming/LongestPalindromicSubsequence.java) (Medium)
 - [Maximum Product Subarray](problems/src/dynamic_programming/MaximumProductSubarray.java) (Medium)
-- [Min Cost Climbing Stairs](problems/src/dynamic_programming/MinCostClimbingStairs.java) (Medium)
+- [Min Cost Climbing Stairs](problems/src/dynamic_programming/MinCostClimbingStairs.java) (Easy)
 - [Palindrome Partitioning II](problems/src/dynamic_programming/PalindromePartitioningII.java) (Hard)
 - [UniqueBinary Search Trees](problems/src/dynamic_programming/UniqueBinarySearchTrees.java) (Medium)
 - [Unique Binary Search Trees II](problems/src/dynamic_programming/UniqueBinarySearchTreesII.java) (Medium)
@@ -180,6 +180,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Minimum Number of Arrows to Burst Balloons](problems/src/greedy/BurstBalloons.java) (Medium)
 - [Queue Reconstruction By Height](problems/src/greedy/QueueReconstructionByHeight.java) (Medium)
 - [Task Scheduler](problems/src/greedy/TaskScheduler.java) (Medium)
+- [Maximum Length of Pair Chain](problems/src/greedy/MaximumLengthOfPairChain.java) (Medium)
 
 #### [Hashing](problems/src/hashing)
 
