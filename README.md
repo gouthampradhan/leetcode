@@ -194,6 +194,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Contiguous Array](problems/src/hashing/ContiguousArray.java) (Medium)
 - [Brick Wall](problems/src/hashing/BrickWall.java) (Medium)
 - [Partition Labels](problems/src/hashing/PartitionLabels.java) (Medium)
+- [Custom Sort String](problems/src/hashing/CustomSortString.java) (Medium)
 
 #### [Heap](problems/src/heap)
 
