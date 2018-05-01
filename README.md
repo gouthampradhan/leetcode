@@ -308,6 +308,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Binary Tree Longest Consecutive Sequence II](problems/src/tree/BinaryTreeLongestConsecutiveSequenceII.java) (Medium)
 - [Minimum Absolute Difference in BST](problems/src/tree/MinimumAbsoluteDifferenceInBST.java) (Medium)
 - [Equal Tree Partition](problems/src/tree/EqualTreePartition.java) (Medium)
+- [Split BST](problems/src/tree/SplitBST.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
