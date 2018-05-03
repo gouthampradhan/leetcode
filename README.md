@@ -310,6 +310,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Equal Tree Partition](problems/src/tree/EqualTreePartition.java) (Medium)
 - [Split BST](problems/src/tree/SplitBST.java) (Medium)
 - [Closest Leaf in a Binary Tree](problems/src/tree/ClosestLeafInABinaryTree.java) (Medium)
+- [Maximum Width of Binary Tree](problems/src/tree/MaximumWidthOfBinaryTree.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
