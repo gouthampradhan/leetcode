@@ -309,6 +309,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Minimum Absolute Difference in BST](problems/src/tree/MinimumAbsoluteDifferenceInBST.java) (Medium)
 - [Equal Tree Partition](problems/src/tree/EqualTreePartition.java) (Medium)
 - [Split BST](problems/src/tree/SplitBST.java) (Medium)
+- [Closest Leaf in a Binary Tree](problems/src/tree/ClosestLeafInABinaryTree.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
