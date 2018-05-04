@@ -38,6 +38,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Minimum Moves to Equal Array Elements II](problems/src/array/MinimumMovesToEqualArray.java) (Median)
 - [Image Smoother](problems/src/array/ImageSmoother.java) (Easy)
 - [Minimum Index Sum of Two Lists](problems/src/array/MinimumIndexSumOfTwoLists.java) (Easy)
+- [Card Flipping Game](problems/src/array/CardFilipGame.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -168,6 +169,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Palindrome Pairs](problems/src/dynamic_programming/PalindromePairs.java) (Hard)
 - [Cherry Pickup](problems/src/dynamic_programming/CherryPickup.java) (Hard)
 - [Knight Probability in Chessboard](problems/src/dynamic_programming/KnightProbabilityInChessboard.java) (Medium)
+- [Largest Sum of Averages](problems/src/dynamic_programming/LargestSumOfAverages.java) (Medium)
 
 
 #### [Greedy](problems/src/greedy)
@@ -195,6 +197,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Brick Wall](problems/src/hashing/BrickWall.java) (Medium)
 - [Partition Labels](problems/src/hashing/PartitionLabels.java) (Medium)
 - [Custom Sort String](problems/src/hashing/CustomSortString.java) (Medium)
+- [Short Encoding of Words](problems/src/hashing/ShortEncodingOfWords.java) (Medium)
 
 #### [Heap](problems/src/heap)
 
