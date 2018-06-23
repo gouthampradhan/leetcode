@@ -87,6 +87,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Word Ladder II](problems/src/breadth_first_search/WordLadderII.java) (Hard)
 - [Walls and Gates](problems/src/breadth_first_search/WallsAndGates.java) (Medium)
 - [Open the lock](problems/src/breadth_first_search/OpenTheLock.java) (Medium)
+- [Cut Off Trees for Golf Event](problems/src/breadth_first_search/CutOffTreesForGolfEvent.java) (Hard)
 
 #### [Depth First Search](problems/src/depth_first_search)
 
