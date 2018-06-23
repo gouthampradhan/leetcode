@@ -230,6 +230,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Bulb Switcher II](problems/src/math/BulbSwitcherII.java) (Medium)
 - [Global and Local Inversions](problems/src/math/GlobalAndLocalInversions.java) (Medium)
 - [Solve the Equation](problems/src/math/SolveTheEquation.java) (Medium)
+- [Couples Holding Hands](problems/src/math/CouplesHoldingHands.java) (Hard)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 
