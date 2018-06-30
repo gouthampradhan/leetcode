@@ -128,6 +128,7 @@ My accepted leetcode solutions to some of the common interview problems.
 #### [Divide and Conquer](problems/src/divide_and_conquer)
 
 - [Kth Largest Element In a Array](problems/src/divide_and_conquer/KthLargestElementInAnArray.java) (Medium)
+- [Reverse Pairs](problems/src/divide_and_conquer/ReversePairs.java) (Hard)
 - [Search in a 2D Matrix](problems/src/divide_and_conquer/SearchA2DMatrix.java) (Medium)
 
 #### [Dynamic Programming](problems/src/dynamic_programming)
