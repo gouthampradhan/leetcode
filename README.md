@@ -105,6 +105,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Number of Distinct Islands](problems/src/depth_first_search/NumberOfDistinctIslands.java) (Medium)
 - [Number of Distinct Islands II](problems/src/depth_first_search/NumberOfDistinctIslandsII.java) (Hard)
 - [Smallest Rectangle Enclosing Black Pixels](problems/src/depth_first_search/SmallestRectangleEnclosingBlackPixels.java) (Hard)
+- [Bricks Falling When Hit](problems/src/depth_first_search/BricksFallingWhenHit.java) (Hard)
 
 #### [Design](problems/src/design)
 
