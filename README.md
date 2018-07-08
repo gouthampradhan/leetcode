@@ -250,6 +250,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Exclusive Time of Functions](problems/src/stack/ExclusiveTimeOfFunctions.java) (Medium)
 - [Basic Calculator](problems/src/stack/BasicCalculator.java) (Hard)
 - [Decode String](problems/src/stack/DecodeString.java) (Medium)
+- [Longest Valid Parentheses](problems/src/stack/LongestValidParentheses.java) (Hard)
 
 
 #### [String](problems/src/string)
