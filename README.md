@@ -235,6 +235,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Global and Local Inversions](problems/src/math/GlobalAndLocalInversions.java) (Medium)
 - [Solve the Equation](problems/src/math/SolveTheEquation.java) (Medium)
 - [Couples Holding Hands](problems/src/math/CouplesHoldingHands.java) (Hard)
+- [Reaching Points](problems/src/math/ReachingPoints.java) (Hard)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 
