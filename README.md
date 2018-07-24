@@ -174,6 +174,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Cherry Pickup](problems/src/dynamic_programming/CherryPickup.java) (Hard)
 - [Knight Probability in Chessboard](problems/src/dynamic_programming/KnightProbabilityInChessboard.java) (Medium)
 - [Largest Sum of Averages](problems/src/dynamic_programming/LargestSumOfAverages.java) (Medium)
+- [Minimum Number of Refueling Stops](problems/src/dynamic_programming/MinimumNumberOfRefuelingStops.java) (Hard)
 
 
 #### [Greedy](problems/src/greedy)
