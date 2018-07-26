@@ -210,6 +210,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [The Skyline Problem](problems/src/heap/TheSkylineProblem.java) (Hard)
 - [Meeting Rooms II](problems/src/heap/MeetingRoomsII.java) (Medium)
 - [Top K Frequent Words](problems/src/heap/TopKFrequentWords.java) (Medium)
+- [Candy](problems/src/heap/Candy.java) (Hard)
 
 #### [Linked List](problems/src/linked_list)
 
