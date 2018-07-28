@@ -325,6 +325,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Closest Leaf in a Binary Tree](problems/src/tree/ClosestLeafInABinaryTree.java) (Medium)
 - [Maximum Width of Binary Tree](problems/src/tree/MaximumWidthOfBinaryTree.java) (Medium)
 - [Recover Binary Search Tree](problems/src/tree/RecoverBinarySearchTree.java) (Hard)
+- [Binary Tree Postorder Traversal](problems/src/tree/BinaryTreePostorderTraversal.java) (Hard)
 
 #### [Two Pointers](problems/src/two_pointers)
 
