@@ -88,6 +88,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Walls and Gates](problems/src/breadth_first_search/WallsAndGates.java) (Medium)
 - [Open the lock](problems/src/breadth_first_search/OpenTheLock.java) (Medium)
 - [Cut Off Trees for Golf Event](problems/src/breadth_first_search/CutOffTreesForGolfEvent.java) (Hard)
+- [Race Car](problems/src/breadth_first_search/RaceCar.java) (Hard)
 
 #### [Depth First Search](problems/src/depth_first_search)
 
