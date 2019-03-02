@@ -206,6 +206,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Partition Labels](problems/src/hashing/PartitionLabels.java) (Medium)
 - [Custom Sort String](problems/src/hashing/CustomSortString.java) (Medium)
 - [Short Encoding of Words](problems/src/hashing/ShortEncodingOfWords.java) (Medium)
+- [Substring with Concatenation of All Words](problems/src/hashing/SubstringConcatenationOfWords.java) (Hard)
 
 #### [Heap](problems/src/heap)
 
