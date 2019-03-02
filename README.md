@@ -14,6 +14,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Can Place Flowers](problems/src/array/CanPlaceFlowers.java) (Easy)
 - [Merge Intervals](problems/src/array/MergeIntervals.java) (Medium)
 - [First Missing Positive](problems/src/array/FirstMissingPositive.java) (Hard)
+- [Fruit Into Baskets](problems/src/array/FruitIntoBaskets.java) (Medium)
 - [MaxProduct Of Three Numbers](problems/src/array/MaxProductOfThreeNumbers.java) (Easy)
 - [Missing Number](problems/src/array/MissingNumber.java) (Easy)
 - [Merge Sorted Array](problems/src/array/MergeSortedArray.java) (Easy)
