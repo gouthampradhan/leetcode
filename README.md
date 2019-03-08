@@ -40,6 +40,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Image Smoother](problems/src/array/ImageSmoother.java) (Easy)
 - [Minimum Index Sum of Two Lists](problems/src/array/MinimumIndexSumOfTwoLists.java) (Easy)
 - [Card Flipping Game](problems/src/array/CardFilipGame.java) (Medium)
+- [Card Flipping Game](problems/src/array/EmployeeFreeTime.java) (Hard)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -109,6 +110,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Number of Distinct Islands II](problems/src/depth_first_search/NumberOfDistinctIslandsII.java) (Hard)
 - [Smallest Rectangle Enclosing Black Pixels](problems/src/depth_first_search/SmallestRectangleEnclosingBlackPixels.java) (Hard)
 - [Bricks Falling When Hit](problems/src/depth_first_search/BricksFallingWhenHit.java) (Hard)
+- [Bricks Falling When Hit](problems/src/depth_first_search/RobotRoomCleaner.java) (Hard)
 
 #### [Design](problems/src/design)
 
@@ -178,6 +180,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Knight Probability in Chessboard](problems/src/dynamic_programming/KnightProbabilityInChessboard.java) (Medium)
 - [Largest Sum of Averages](problems/src/dynamic_programming/LargestSumOfAverages.java) (Medium)
 - [Minimum Number of Refueling Stops](problems/src/dynamic_programming/MinimumNumberOfRefuelingStops.java) (Hard)
+- [Minimum Number of Refueling Stops](problems/src/dynamic_programming/CatAndMouse.java) (Hard)
 
 
 #### [Greedy](problems/src/greedy)
