@@ -110,7 +110,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Number of Distinct Islands II](problems/src/depth_first_search/NumberOfDistinctIslandsII.java) (Hard)
 - [Smallest Rectangle Enclosing Black Pixels](problems/src/depth_first_search/SmallestRectangleEnclosingBlackPixels.java) (Hard)
 - [Bricks Falling When Hit](problems/src/depth_first_search/BricksFallingWhenHit.java) (Hard)
-- [Bricks Falling When Hit](problems/src/depth_first_search/RobotRoomCleaner.java) (Hard)
+- [Robot Room Cleaner](problems/src/depth_first_search/RobotRoomCleaner.java) (Hard)
+- [Cracking the Safe](problems/src/depth_first_search/CrackingTheSafe.java) (Hard)
 
 #### [Design](problems/src/design)
 
