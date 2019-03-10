@@ -40,7 +40,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Image Smoother](problems/src/array/ImageSmoother.java) (Easy)
 - [Minimum Index Sum of Two Lists](problems/src/array/MinimumIndexSumOfTwoLists.java) (Easy)
 - [Card Flipping Game](problems/src/array/CardFilipGame.java) (Medium)
-- [Card Flipping Game](problems/src/array/EmployeeFreeTime.java) (Hard)
+- [Employee Free Time](problems/src/array/EmployeeFreeTime.java) (Hard)
+- [Best Meeting Point](problems/src/array/BestMeetingPoint.java) (Hard)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -181,7 +182,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Knight Probability in Chessboard](problems/src/dynamic_programming/KnightProbabilityInChessboard.java) (Medium)
 - [Largest Sum of Averages](problems/src/dynamic_programming/LargestSumOfAverages.java) (Medium)
 - [Minimum Number of Refueling Stops](problems/src/dynamic_programming/MinimumNumberOfRefuelingStops.java) (Hard)
-- [Minimum Number of Refueling Stops](problems/src/dynamic_programming/CatAndMouse.java) (Hard)
+- [Cat and Mouse](problems/src/dynamic_programming/CatAndMouse.java) (Hard)
 
 
 #### [Greedy](problems/src/greedy)
