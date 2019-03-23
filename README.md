@@ -42,6 +42,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Card Flipping Game](problems/src/array/CardFilipGame.java) (Medium)
 - [Employee Free Time](problems/src/array/EmployeeFreeTime.java) (Hard)
 - [Best Meeting Point](problems/src/array/BestMeetingPoint.java) (Hard)
+- [My Calendar III](problems/src/array/MyCalendarThree.java) (Hard)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -93,6 +94,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Cut Off Trees for Golf Event](problems/src/breadth_first_search/CutOffTreesForGolfEvent.java) (Hard)
 - [Race Car](problems/src/breadth_first_search/RaceCar.java) (Hard)
 - [Bus Routes](problems/src/breadth_first_search/BusRoutes.java) (Hard)
+- [Sliding Puzzle](problems/src/breadth_first_search/SlidingPuzzle.java) (Hard)
+- [Matrix](problems/src/breadth_first_search/Matrix.java) (Medium)
 
 #### [Depth First Search](problems/src/depth_first_search)
 
@@ -183,6 +186,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Largest Sum of Averages](problems/src/dynamic_programming/LargestSumOfAverages.java) (Medium)
 - [Minimum Number of Refueling Stops](problems/src/dynamic_programming/MinimumNumberOfRefuelingStops.java) (Hard)
 - [Cat and Mouse](problems/src/dynamic_programming/CatAndMouse.java) (Hard)
+- [Stone Game](problems/src/dynamic_programming/StoneGame.java) (Medium)
+- [Odd Even Jump](problems/src/dynamic_programming/OddEvenJump.java) (Hard)
 
 
 #### [Greedy](problems/src/greedy)
@@ -232,6 +237,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Delete Node in a Linked List](problems/src/linked_list/DeleteNode.java) (Easy)
 - [Reverse Nodes in k-Group](problems/src/linked_list/ReverseNodesKGroup.java) (Hard)
 - [Swap Nodes in Pairs](problems/src/linked_list/SwapNodesInPairs.java) (Medium)
+- [Middle of Linked List](problems/src/linked_list/MiddleOfLinkedList.java) (Easy)
 
 #### [Math](problems/src/math)
 
@@ -247,6 +253,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Solve the Equation](problems/src/math/SolveTheEquation.java) (Medium)
 - [Couples Holding Hands](problems/src/math/CouplesHoldingHands.java) (Hard)
 - [Reaching Points](problems/src/math/ReachingPoints.java) (Hard)
+- [Nth Magical Number](problems/src/math/NthMagicalNumber.java) (Hard)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 
@@ -292,6 +299,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Find the Closest Palindrome](problems/src/string/FindTheClosestPalindrome.java) (Hard)
 - [Monotone Increasing Digits](problems/src/string/MonotoneIncreasingDigits.java) (Medium)
 - [Shortest Palindrome](problems/src/string/ShortestPalindrome.java) (Hard)
+- [Valid Word Abbreviation](problems/src/string/ValidWordAbbreviation.java) (Easy)
+- [Longest Palindrome](problems/src/string/LongestPalindrome.java) (Easy)
 
 #### [Tree](problems/src/tree)
 
@@ -335,6 +344,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Maximum Width of Binary Tree](problems/src/tree/MaximumWidthOfBinaryTree.java) (Medium)
 - [Recover Binary Search Tree](problems/src/tree/RecoverBinarySearchTree.java) (Hard)
 - [Binary Tree Postorder Traversal](problems/src/tree/BinaryTreePostorderTraversal.java) (Hard)
+- [Serialize and Deserialize N-ary Tree](problems/src/tree/SerializeAndDeserializeNAryTree.java) (Hard)
+- [Convert BST to Greater Tree](problems/src/tree/ConvertBSTToGreaterTree.java) (Easy)
 
 #### [Two Pointers](problems/src/two_pointers)
 
