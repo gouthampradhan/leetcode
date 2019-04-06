@@ -43,6 +43,9 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Employee Free Time](problems/src/array/EmployeeFreeTime.java) (Hard)
 - [Best Meeting Point](problems/src/array/BestMeetingPoint.java) (Hard)
 - [My Calendar III](problems/src/array/MyCalendarThree.java) (Hard)
+- [Champagne Tower](problems/src/array/ChampagneTower.java) (Medium)
+- [Valid Tic-Tac-Toe State](problems/src/array/ValidTicTacToeState.java) (Medium)
+- [Number of Subarrays with Bounded Maximum](problems/src/array/SubArraysWithBoundedMaximum.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -116,6 +119,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Bricks Falling When Hit](problems/src/depth_first_search/BricksFallingWhenHit.java) (Hard)
 - [Robot Room Cleaner](problems/src/depth_first_search/RobotRoomCleaner.java) (Hard)
 - [Cracking the Safe](problems/src/depth_first_search/CrackingTheSafe.java) (Hard)
+- [All Paths From Source to Target](problems/src/depth_first_search/AllPathsFromSourceToTarget.java) (Medium)
 
 #### [Design](problems/src/design)
 
@@ -188,6 +192,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Cat and Mouse](problems/src/dynamic_programming/CatAndMouse.java) (Hard)
 - [Stone Game](problems/src/dynamic_programming/StoneGame.java) (Medium)
 - [Odd Even Jump](problems/src/dynamic_programming/OddEvenJump.java) (Hard)
+- [Profitable Schemes](problems/src/dynamic_programming/ProfitableSchemes.java) (Hard)
 
 
 #### [Greedy](problems/src/greedy)
@@ -225,6 +230,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Meeting Rooms II](problems/src/heap/MeetingRoomsII.java) (Medium)
 - [Top K Frequent Words](problems/src/heap/TopKFrequentWords.java) (Medium)
 - [Candy](problems/src/heap/Candy.java) (Hard)
+- [Smallest Rotation with Highest Score](problems/src/heap/SmallestRotationWithHighestScore.java) (Hard)
 
 #### [Linked List](problems/src/linked_list)
 
@@ -301,6 +307,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Shortest Palindrome](problems/src/string/ShortestPalindrome.java) (Hard)
 - [Valid Word Abbreviation](problems/src/string/ValidWordAbbreviation.java) (Easy)
 - [Longest Palindrome](problems/src/string/LongestPalindrome.java) (Easy)
+- [Replace Words](problems/src/string/ReplaceWords.java) (Medium)
+- [Rotate String](problems/src/string/RotateString.java) (Easy)
 
 #### [Tree](problems/src/tree)
 
@@ -361,4 +369,5 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Minimum Window Substring](problems/src/two_pointers/MinimumWindowSubstring.java) (Hard)
 - [Smallest Range](problems/src/two_pointers/SmallestRange.java) (Hard)
 - [Subarray Product Less Than K](problems/src/two_pointers/SubarrayProductLessThanK.java) (Medium)
+- [Number of Matching Subsequences](problems/src/two_pointers/NumberOfMatchingSubsequences.java) (Medium)
 
