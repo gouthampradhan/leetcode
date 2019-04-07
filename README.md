@@ -79,6 +79,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Find Peak Element](problems/src/binary_search/FindPeakElement.java) (Medium)
 - [Target Sum](problems/src/binary_search/TargetSum.java) (Medium)
 - [H-Index II](problems/src/binary_search/HIndexII.java) (Medium)
+- [Swim in Rising Water](problems/src/binary_search/SwimInRisingWater.java) (Hard)
 
 #### [Bit Manipulation](problems/src/bit_manipulation)
 
