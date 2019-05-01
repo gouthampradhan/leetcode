@@ -46,6 +46,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Champagne Tower](problems/src/array/ChampagneTower.java) (Medium)
 - [Valid Tic-Tac-Toe State](problems/src/array/ValidTicTacToeState.java) (Medium)
 - [Number of Subarrays with Bounded Maximum](problems/src/array/SubArraysWithBoundedMaximum.java) (Medium)
+- [Surface Area of 3D Shapes](problems/src/array/SurfaceAreaOfThreeDShapes.java) (Easy)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -66,6 +67,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Expression Add Operators](problems/src/backtracking/ExpressionAddOperators.java) (Hard)
 - [Wildcard Matching](problems/src/backtracking/WildcardMatching.java) (Hard)
 - [Letter Case Permutation](problems/src/backtracking/LetterCasePermutation.java) (Easy)
+
 
 #### [Binary Search](problems/src/binary_search)
 
@@ -194,6 +196,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Stone Game](problems/src/dynamic_programming/StoneGame.java) (Medium)
 - [Odd Even Jump](problems/src/dynamic_programming/OddEvenJump.java) (Hard)
 - [Profitable Schemes](problems/src/dynamic_programming/ProfitableSchemes.java) (Hard)
+- [Maximum Vacation Days](problems/src/dynamic_programming/MaximumVacationDays.java) (Hard)
 
 
 #### [Greedy](problems/src/greedy)
@@ -207,6 +210,9 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Queue Reconstruction By Height](problems/src/greedy/QueueReconstructionByHeight.java) (Medium)
 - [Task Scheduler](problems/src/greedy/TaskScheduler.java) (Medium)
 - [Maximum Length of Pair Chain](problems/src/greedy/MaximumLengthOfPairChain.java) (Medium)
+- [Lemonade Change](problems/src/greedy/LemonadeChange.java) (Easy)
+- [Score After Flipping Matrix](problems/src/greedy/ScoreAfterFlippingMatrix.java) (Medium)
+- [IPO](problems/src/greedy/IPO.java) (Hard)
 
 #### [Hashing](problems/src/hashing)
 
@@ -223,6 +229,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Custom Sort String](problems/src/hashing/CustomSortString.java) (Medium)
 - [Short Encoding of Words](problems/src/hashing/ShortEncodingOfWords.java) (Medium)
 - [Substring with Concatenation of All Words](problems/src/hashing/SubstringConcatenationOfWords.java) (Hard)
+- [Distribute Candies](problems/src/hashing/DistributeCandies.java) (Easy)
+- [Groups of Special-Equivalent Strings](problems/src/hashing/GroupsOfSpecialEquivalentStrings.java) (Easy)
 
 #### [Heap](problems/src/heap)
 
@@ -232,6 +240,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Top K Frequent Words](problems/src/heap/TopKFrequentWords.java) (Medium)
 - [Candy](problems/src/heap/Candy.java) (Hard)
 - [Smallest Rotation with Highest Score](problems/src/heap/SmallestRotationWithHighestScore.java) (Hard)
+- [Maximum Frequency Stack](problems/src/heap/FreqStack.java) (Hard)
 
 #### [Linked List](problems/src/linked_list)
 
@@ -261,6 +270,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Couples Holding Hands](problems/src/math/CouplesHoldingHands.java) (Hard)
 - [Reaching Points](problems/src/math/ReachingPoints.java) (Hard)
 - [Nth Magical Number](problems/src/math/NthMagicalNumber.java) (Hard)
+- [Squirrel Simulation](problems/src/math/SquirrelSimulation.java) (Medium)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 
@@ -310,6 +320,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Longest Palindrome](problems/src/string/LongestPalindrome.java) (Easy)
 - [Replace Words](problems/src/string/ReplaceWords.java) (Medium)
 - [Rotate String](problems/src/string/RotateString.java) (Easy)
+- [Keyboard Row](problems/src/string/KeyboardRow.java) (Easy)
 
 #### [Tree](problems/src/tree)
 
@@ -355,6 +366,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Binary Tree Postorder Traversal](problems/src/tree/BinaryTreePostorderTraversal.java) (Hard)
 - [Serialize and Deserialize N-ary Tree](problems/src/tree/SerializeAndDeserializeNAryTree.java) (Hard)
 - [Convert BST to Greater Tree](problems/src/tree/ConvertBSTToGreaterTree.java) (Easy)
+- [All Nodes Distance K in Binary Tree](problems/src/tree/AllNodesDistanceKInBinaryTree.java) (Medium)
+- [All Possible Full Binary Trees](problems/src/tree/AllPossibleFullBinaryTrees.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 

@@ -1,7 +1,6 @@
 package dynamic_programming;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by gouthamvidyapradhan on 31/03/2017.
@@ -27,8 +26,6 @@ public class UniqueBinarySearchTreesII {
         }
     }
 
-    private List<TreeNode>[][] dp;
-
     /**
      * Main method
      *
@@ -39,67 +36,58 @@ public class UniqueBinarySearchTreesII {
         List<TreeNode> list = new UniqueBinarySearchTreesII().generateTrees(3);
     }
 
+    class Pair{
+        int l, r;
+        Pair(int l, int r){
+            this.l = l;
+            this.r = r;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (!(o instanceof Pair)) return false;
+            Pair pair = (Pair) o;
+            return l == pair.l &&
+                    r == pair.r;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(l, r);
+        }
+    }
+
+    Map<Pair, List<TreeNode>> dp;
+
     public List<TreeNode> generateTrees(int n) {
-        if (n == 0) return new ArrayList<>();
-        dp = new List[n + 1][n + 1];
-        dp[0][0] = new ArrayList<>();
-        for (int i = 1, j = 1; i <= n; i++, j++) {
-            dp[i][j] = new ArrayList<>();
-            dp[i][j].add(new TreeNode(i));
-        }
-        return dp(1, n, n);
+        dp = new HashMap<>();
+        if(n == 0) return new ArrayList<>();
+        return generate(new Pair(1, n));
     }
 
-    private List<TreeNode> dp(int s, int e, int n) {
-        if (e < s) return null;
-        if (dp[s][e] != null) return dp[s][e];
-        List<TreeNode> result = new ArrayList<>();
-        for (int i = s; i <= e; i++) {
-            List<TreeNode> left = dp(s, i - 1, n);
-            List<TreeNode> right = dp(i + 1, e, n);
-            List<TreeNode> temp = new ArrayList<>();
-            if (left != null) {
-                for (TreeNode node : left) {
+    private List<TreeNode> generate(Pair p){
+        if(dp.containsKey(p)){
+            return dp.get(p);
+        }
+        else if(p.l > p.r) return Arrays.asList(new TreeNode(-1));
+        else if(p.l == p.r) return Arrays.asList(new TreeNode(p.l));
+        List<TreeNode> list = new ArrayList<>();
+        for(int i = p.l; i <= p.r; i ++){
+            Pair left = new Pair(p.l, i - 1);
+            Pair right = new Pair(i + 1, p.r);
+            List<TreeNode> leftList = generate(left);
+            List<TreeNode> rightList = generate(right);
+            for(TreeNode lNode : leftList){
+                for(TreeNode rNode : rightList){
                     TreeNode root = new TreeNode(i);
-                    root.left = node;
-                    temp.add(root);
+                    root.left = lNode.val == -1 ? null : lNode;
+                    root.right = rNode.val == -1 ? null : rNode;
+                    list.add(root);
                 }
-            }
-            if (right != null) {
-                if (!temp.isEmpty()) {
-                    for (TreeNode root : temp) {
-                        for (TreeNode node : right) {
-                            TreeNode newRoot = clone(root);
-                            newRoot.right = node;
-                            result.add(newRoot);
-                        }
-                    }
-                } else {
-                    for (TreeNode node : right) {
-                        TreeNode root = new TreeNode(i);
-                        root.right = node;
-                        result.add(root);
-                    }
-                }
-            } else if (!temp.isEmpty()) {
-                result.addAll(temp);
             }
         }
-        dp[s][e] = result;
-        return result;
-    }
-
-    /**
-     * Clone treeNode
-     *
-     * @param root rootnode
-     * @return cloned root
-     */
-    private TreeNode clone(TreeNode root) {
-        if (root == null) return null;
-        TreeNode newNode = new TreeNode(root.val);
-        newNode.left = clone(root.left);
-        newNode.right = clone(root.right);
-        return newNode;
+        dp.put(p, list);
+        return list;
     }
 }
