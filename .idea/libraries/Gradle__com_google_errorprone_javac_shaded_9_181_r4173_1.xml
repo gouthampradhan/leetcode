@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.errorprone:javac-shaded:9+181-r4173-1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/javac-shaded/9+181-r4173-1/a399ee380b6d6b6ea53af1cfbcb086b108d1efb7/javac-shaded-9+181-r4173-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.errorprone/javac-shaded/9+181-r4173-1/d210b45d3abef17a00f99e8fc2aaa4e5f1b1c8f5/javac-shaded-9+181-r4173-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
