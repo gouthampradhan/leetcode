@@ -198,7 +198,6 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Profitable Schemes](problems/src/dynamic_programming/ProfitableSchemes.java) (Hard)
 - [Maximum Vacation Days](problems/src/dynamic_programming/MaximumVacationDays.java) (Hard)
 
-
 #### [Greedy](problems/src/greedy)
 
 - [Jump Game](problems/src/greedy/JumpGame.java) (Medium)

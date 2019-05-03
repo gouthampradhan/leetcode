@@ -1,69 +1,63 @@
 package tree;
 
 /**
- * Created by gouthamvidyapradhan on 23/01/2018.
- * Given two binary trees, write a function to check if they are the same or not.
-
- Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
-
-
- Example 1:
-
- Input:     1         1
- / \       / \
- 2   3     2   3
-
- [1,2,3],   [1,2,3]
-
- Output: true
- Example 2:
-
- Input:     1         1
- /           \
- 2             2
-
- [1,2],     [1,null,2]
-
- Output: false
- Example 3:
-
- Input:     1         1
- / \       / \
- 2   1     1   2
-
- [1,2,1],   [1,1,2]
-
- Output: false
-
- Solution: Do a pre-order traversal of both the trees in parallel and compare each node
+ * Created by gouthamvidyapradhan on 23/01/2018. Given two binary trees, write a function to check
+ * if they are the same or not.
+ *
+ * <p>Two binary trees are considered the same if they are structurally identical and the nodes have
+ * the same value.
+ *
+ * <p>Example 1:
+ *
+ * <p>Input: 1 1 / \ / \ 2 3 2 3
+ *
+ * <p>[1,2,3], [1,2,3]
+ *
+ * <p>Output: true Example 2:
+ *
+ * <p>Input: 1 1 / \ 2 2
+ *
+ * <p>[1,2], [1,null,2]
+ *
+ * <p>Output: false Example 3:
+ *
+ * <p>Input: 1 1 / \ / \ 2 1 1 2
+ *
+ * <p>[1,2,1], [1,1,2]
+ *
+ * <p>Output: false
+ *
+ * <p>Solution: Do a pre-order traversal of both the trees in parallel and compare each node
  */
 public class SameTree {
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
+  public class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
 
-    /**
-     * Main method
-     * @param args
-     * @throws Exception
-     */
-    public static void main(String[] args) throws Exception{
-
+    TreeNode(int x) {
+      val = x;
     }
+  }
 
-    public boolean isSameTree(TreeNode p, TreeNode q) {
-        if((p == null && q != null) || (p != null && q == null)) return false;
-        if(p == null && q == null) return true;
-        else{
-            boolean status = isSameTree(p.left, q.left);
-            if(!status || p.val != q.val){
-                return false;
-            }
-            return isSameTree(p.right, q.right);
-        }
+  /**
+   * Main method
+   *
+   * @param args
+   * @throws Exception
+   */
+  public static void main(String[] args) throws Exception {}
+
+  public boolean isSameTree(TreeNode p, TreeNode q) {
+    if ((p == null && q != null) || (p != null && q == null)) return false;
+    if (p == null && q == null) return true;
+    else {
+      boolean status = isSameTree(p.left, q.left);
+      if (!status || p.val != q.val) {
+        return false;
+      }
+      return isSameTree(p.right, q.right);
     }
+  }
 }
