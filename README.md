@@ -47,6 +47,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Valid Tic-Tac-Toe State](problems/src/array/ValidTicTacToeState.java) (Medium)
 - [Number of Subarrays with Bounded Maximum](problems/src/array/SubArraysWithBoundedMaximum.java) (Medium)
 - [Surface Area of 3D Shapes](problems/src/array/SurfaceAreaOfThreeDShapes.java) (Easy)
+- [Max Consecutive Ones](problems/src/array/MaxConsecutiveOnes.java) (Easy)
+- [Max Consecutive Ones II](problems/src/array/MaxConsecutiveOnesII.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -67,7 +69,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Expression Add Operators](problems/src/backtracking/ExpressionAddOperators.java) (Hard)
 - [Wildcard Matching](problems/src/backtracking/WildcardMatching.java) (Hard)
 - [Letter Case Permutation](problems/src/backtracking/LetterCasePermutation.java) (Easy)
-
+- [Zuma Game](problems/src/backtracking/ZumaGame.java) (Hard)
+- [Matchsticks to Square](problems/src/backtracking/MatchsticksToSquare.java) (Medium)
 
 #### [Binary Search](problems/src/binary_search)
 
@@ -82,6 +85,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Target Sum](problems/src/binary_search/TargetSum.java) (Medium)
 - [H-Index II](problems/src/binary_search/HIndexII.java) (Medium)
 - [Swim in Rising Water](problems/src/binary_search/SwimInRisingWater.java) (Hard)
+- [Time Based Key-Value Store](problems/src/binary_search/TimeBasedKeyValuePair.java) (Medium)
 
 #### [Bit Manipulation](problems/src/bit_manipulation)
 
@@ -89,6 +93,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Hamming Distance](problems/src/bit_manipulation/HammingDistance.java) (Easy)
 - [Total Hamming Distance](problems/src/bit_manipulation/TotalHammingDistance.java) (Medium)
 - [Divide Two Integers](problems/src/bit_manipulation/DivideTwoIntegers.java) (Medium)
+- [Binary Number with Alternating Bits](problems/src/bit_manipulation/BinaryNumberWithAlternatingBits.java) (Easy)
 
 #### [Breadth First Search](problems/src/breadth_first_search)
 
@@ -123,6 +128,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Robot Room Cleaner](problems/src/depth_first_search/RobotRoomCleaner.java) (Hard)
 - [Cracking the Safe](problems/src/depth_first_search/CrackingTheSafe.java) (Hard)
 - [All Paths From Source to Target](problems/src/depth_first_search/AllPathsFromSourceToTarget.java) (Medium)
+- [Max Area of Island](problems/src/depth_first_search/MaxAreaOfIsland.java) (Medium)
 
 #### [Design](problems/src/design)
 
@@ -148,6 +154,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Kth Largest Element In a Array](problems/src/divide_and_conquer/KthLargestElementInAnArray.java) (Medium)
 - [Reverse Pairs](problems/src/divide_and_conquer/ReversePairs.java) (Hard)
 - [Search in a 2D Matrix](problems/src/divide_and_conquer/SearchA2DMatrix.java) (Medium)
+- [24 Game](problems/src/divide_and_conquer/TwentyFourGame.java) (Hard)
 
 #### [Dynamic Programming](problems/src/dynamic_programming)
 
@@ -197,6 +204,9 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Odd Even Jump](problems/src/dynamic_programming/OddEvenJump.java) (Hard)
 - [Profitable Schemes](problems/src/dynamic_programming/ProfitableSchemes.java) (Hard)
 - [Maximum Vacation Days](problems/src/dynamic_programming/MaximumVacationDays.java) (Hard)
+- [Russian Doll Envelopes](problems/src/dynamic_programming/RussianDollEnvelopes.java) (Hard)
+- [Student Attendance Record II](problems/src/dynamic_programming/StudentAttendanceRecordII.java) (Hard)
+- [Out of Boundary Paths](problems/src/dynamic_programming/OutOfBoundaryPaths.java) (Medium)
 
 #### [Greedy](problems/src/greedy)
 
@@ -212,6 +222,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Lemonade Change](problems/src/greedy/LemonadeChange.java) (Easy)
 - [Score After Flipping Matrix](problems/src/greedy/ScoreAfterFlippingMatrix.java) (Medium)
 - [IPO](problems/src/greedy/IPO.java) (Hard)
+- [String Without AAA or BBB](problems/src/greedy/StringWithout3A3B.java) (Medium)
+- [Boats to Save People](problems/src/greedy/BoatsToSavePeople.java) (Medium)
 
 #### [Hashing](problems/src/hashing)
 
@@ -240,6 +252,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Candy](problems/src/heap/Candy.java) (Hard)
 - [Smallest Rotation with Highest Score](problems/src/heap/SmallestRotationWithHighestScore.java) (Hard)
 - [Maximum Frequency Stack](problems/src/heap/FreqStack.java) (Hard)
+- [Reachable Nodes In Subdivided Graph](problems/src/heap/ReachableNodesInSubdividedGraph.java) (Hard)
 
 #### [Linked List](problems/src/linked_list)
 
@@ -270,6 +283,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Reaching Points](problems/src/math/ReachingPoints.java) (Hard)
 - [Nth Magical Number](problems/src/math/NthMagicalNumber.java) (Hard)
 - [Squirrel Simulation](problems/src/math/SquirrelSimulation.java) (Medium)
+- [Projection Area of 3D Shapes](problems/src/math/ProjectionAreaOf3DShapes.java) (Easy)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 
@@ -320,6 +334,10 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Replace Words](problems/src/string/ReplaceWords.java) (Medium)
 - [Rotate String](problems/src/string/RotateString.java) (Easy)
 - [Keyboard Row](problems/src/string/KeyboardRow.java) (Easy)
+- [Student Attendance Record I](problems/src/string/StudentAttendanceRecordI.java) (Easy)
+- [Split Concatenated Strings](problems/src/string/SplitConcatenatedStrings.java) (Medium)
+- [Valid Word Square](problems/src/string/ValidWordSquare.java) (Easy)
+- [Reconstruct Original Digits from English](problems/src/string/ReconstructOriginalDigitsFromEnglish.java) (Medium)
 
 #### [Tree](problems/src/tree)
 
