@@ -207,6 +207,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Russian Doll Envelopes](problems/src/dynamic_programming/RussianDollEnvelopes.java) (Hard)
 - [Student Attendance Record II](problems/src/dynamic_programming/StudentAttendanceRecordII.java) (Hard)
 - [Out of Boundary Paths](problems/src/dynamic_programming/OutOfBoundaryPaths.java) (Medium)
+- [Remove Boxes](problems/src/dynamic_programming/RemoveBoxes.java) (Hard)
 
 #### [Greedy](problems/src/greedy)
 
