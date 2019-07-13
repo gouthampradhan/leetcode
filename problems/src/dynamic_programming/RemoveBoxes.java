@@ -11,33 +11,38 @@ package dynamic_programming;
  * <p>[1, 3, 2, 2, 2, 3, 4, 3, 1] Output: 23 Explanation: [1, 3, 2, 2, 2, 3, 4, 3, 1] ----> [1, 3,
  * 3, 4, 3, 1] (3*3=9 points) ----> [1, 3, 3, 3, 1] (1*1=1 points) ----> [1, 1] (3*3=9 points) ---->
  * [] (2*2=4 points) Note: The number of boxes n would not exceed 100.
+ *
+ * Solution O(N ^ 4) For each sub-array [l, r] make a dp cache and calculate maximum of [l, i][1] + [i + 1, r][1] or
+ * maximum of [l + 1, i - 1][n] + [i, r][1] where boxes[l] == boxes[i] where n is the count of repetitions
  */
 public class RemoveBoxes {
 
-    int[][][] dp;
-    public static void main(String[] args) {
-        int[] boxes = {3, 3, 3};
+  int[][][] dp;
+
+  public static void main(String[] args) {
+    int[] boxes = {3, 3, 3};
     System.out.println(new RemoveBoxes().removeBoxes(boxes));
-    }
+  }
 
-    public int removeBoxes(int[] boxes) {
-        dp = new int[boxes.length][boxes.length][boxes.length + 1];
-        return calculate(0, boxes.length - 1, 1, boxes);
-    }
+  public int removeBoxes(int[] boxes) {
+    dp = new int[boxes.length][boxes.length][boxes.length + 1];
+    return calculate(0, boxes.length - 1, 1, boxes);
+  }
 
-    int calculate(int l, int r, int rep, int[] boxes){
-        if(l == r) return rep * rep;
-        else if(l > r) return 0;
-        else if(dp[l][r][rep] != 0) return dp[l][r][rep];
-        else{
-            dp[l][r][rep] = calculate(l, r - 1, 1, boxes) + (rep * rep);
-            for(int i = l; i < r; i ++){
-                if(boxes[i] == boxes[r]){
-                    dp[l][r][rep] = Math.max(dp[l][r][rep],
-                            calculate(l, i, rep + 1, boxes) + calculate(i + 1, r - 1, 1, boxes));
-                }
-            }
-            return dp[l][r][rep];
+  int calculate(int l, int r, int n, int[] boxes) {
+    if (l > r) return 0;
+    else {
+      if (dp[l][r][n] != 0) return dp[l][r][n];
+      dp[l][r][n] = (n * n) + calculate(l + 1, r, 1, boxes);
+      for (int i = l + 1; i <= r; i++) {
+        int center = 0, next = 0;
+        if (boxes[l] == boxes[i]) {
+          center = calculate(l + 1, i - 1, 1, boxes);
+          next = calculate(i, r, n + 1, boxes);
         }
+        dp[l][r][n] = Math.max(dp[l][r][n], center + next);
+      }
     }
+    return dp[l][r][n];
+  }
 }

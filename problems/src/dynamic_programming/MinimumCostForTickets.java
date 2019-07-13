@@ -34,14 +34,14 @@ import java.util.Arrays;
  *
  * <p>1 <= days.length <= 365 1 <= days[i] <= 365 days is in strictly increasing order. costs.length
  * == 3 1 <= costs[i] <= 1000
-
- Solution: O(N ^ 2 x 3)
+ *
+ * <p>Solution: O(N ^ 2 x 3)
  */
 public class MinimumCostForTickets {
 
   public static void main(String[] args) {
-      int[] days = {1,2,3,4,5,6,7,8,9,10,30,31};
-      int[] costs = {2, 7, 15};
+    int[] days = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 30, 31};
+    int[] costs = {2, 7, 15};
     System.out.println(new MinimumCostForTickets().mincostTickets(days, costs));
   }
   /**

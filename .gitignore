@@ -13,6 +13,5 @@ leetcode.ipr
 leetcode.iws
 out/
 problems/src.iml
-.idea/codeStyles/
-.idea/copyright/
-.idea/markdown-navigator/
+.idea/*
+.gradle/

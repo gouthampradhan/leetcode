@@ -1,4 +1,5 @@
 package binary_search;
+
 import java.util.*;
 
 /**
@@ -36,47 +37,48 @@ import java.util.*;
  * TimeMap.set and TimeMap.get functions will be called a total of 120000 times (combined) per test
  * case.
  *
- * Solution O(log N) where N is the number of values for the same key (but different timestamp)
- * Idea is to use the HashMap to store the unique key and a TreeMap as value containing all different timestamps and
- * value. Use the floor function in treemap to get the value for a given timestamp.
+ * <p>Solution O(log N) where N is the number of values for the same key (but different timestamp)
+ * Idea is to use the HashMap to store the unique key and a TreeMap as value containing all
+ * different timestamps and value. Use the floor function in treemap to get the value for a given
+ * timestamp.
  */
 public class TimeBasedKeyValuePair {
 
-    private Map<String, TreeMap<Integer, String>> map;
+  private Map<String, TreeMap<Integer, String>> map;
 
-    public TimeBasedKeyValuePair() {
-        map = new HashMap<>();
-    }
+  public TimeBasedKeyValuePair() {
+    map = new HashMap<>();
+  }
 
-    public void set(String key, String value, int timestamp) {
-        map.putIfAbsent(key, new TreeMap<>());
-        TreeMap<Integer, String> treeMap = map.get(key);
-        treeMap.put(timestamp, value);
-    }
+  public void set(String key, String value, int timestamp) {
+    map.putIfAbsent(key, new TreeMap<>());
+    TreeMap<Integer, String> treeMap = map.get(key);
+    treeMap.put(timestamp, value);
+  }
 
-    public String get(String key, int timestamp) {
-        if(!map.containsKey(key)){
-            return "";
-        }else {
-            TreeMap<Integer, String> treeMap = map.get(key);
-            Map.Entry<Integer, String> entry = treeMap.floorEntry(timestamp);
-            if(entry == null){
-                return "";
-            } else{
-                return entry.getValue();
-            }
-        }
+  public String get(String key, int timestamp) {
+    if (!map.containsKey(key)) {
+      return "";
+    } else {
+      TreeMap<Integer, String> treeMap = map.get(key);
+      Map.Entry<Integer, String> entry = treeMap.floorEntry(timestamp);
+      if (entry == null) {
+        return "";
+      } else {
+        return entry.getValue();
+      }
     }
+  }
 
-    public static void main(String[] args) {
-        TimeBasedKeyValuePair task = new TimeBasedKeyValuePair();
-        task.set("foo", "bar", 1);
-        System.out.println(task.get("foo", 1));
-        System.out.println(task.get("foo", 3));
-        System.out.println(task.get("foo", 0));
-        task.set("foo", "bar2", 4);
-        System.out.println(task.get("foo", 3));
-        System.out.println(task.get("foo", 4));
-        System.out.println(task.get("foo", 5));
-    }
+  public static void main(String[] args) {
+    TimeBasedKeyValuePair task = new TimeBasedKeyValuePair();
+    task.set("foo", "bar", 1);
+    System.out.println(task.get("foo", 1));
+    System.out.println(task.get("foo", 3));
+    System.out.println(task.get("foo", 0));
+    task.set("foo", "bar2", 4);
+    System.out.println(task.get("foo", 3));
+    System.out.println(task.get("foo", 4));
+    System.out.println(task.get("foo", 5));
+  }
 }
