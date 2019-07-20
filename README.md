@@ -208,6 +208,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Student Attendance Record II](problems/src/dynamic_programming/StudentAttendanceRecordII.java) (Hard)
 - [Out of Boundary Paths](problems/src/dynamic_programming/OutOfBoundaryPaths.java) (Medium)
 - [Remove Boxes](problems/src/dynamic_programming/RemoveBoxes.java) (Hard)
+- [Stickers to Spell Word](problems/src/dynamic_programming/StickersToSpellWord.java) (Hard)
 
 #### [Greedy](problems/src/greedy)
 
