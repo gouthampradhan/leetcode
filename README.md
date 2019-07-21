@@ -286,6 +286,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Nth Magical Number](problems/src/math/NthMagicalNumber.java) (Hard)
 - [Squirrel Simulation](problems/src/math/SquirrelSimulation.java) (Medium)
 - [Projection Area of 3D Shapes](problems/src/math/ProjectionAreaOf3DShapes.java) (Easy)
+- [Decoded String at Index](problems/src/math/DecodedStringAtIndex.java) (Medium)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 
