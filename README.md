@@ -49,6 +49,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Surface Area of 3D Shapes](problems/src/array/SurfaceAreaOfThreeDShapes.java) (Easy)
 - [Max Consecutive Ones](problems/src/array/MaxConsecutiveOnes.java) (Easy)
 - [Max Consecutive Ones II](problems/src/array/MaxConsecutiveOnesII.java) (Medium)
+- [Add to Array-Form of Integer](problems/src/array/AddToArrayFormOfInteger.java) (Easy)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -129,6 +130,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Cracking the Safe](problems/src/depth_first_search/CrackingTheSafe.java) (Hard)
 - [All Paths From Source to Target](problems/src/depth_first_search/AllPathsFromSourceToTarget.java) (Medium)
 - [Max Area of Island](problems/src/depth_first_search/MaxAreaOfIsland.java) (Medium)
+- [Satisfiability of Equality Equations](problems/src/depth_first_search/SatisfiabilityOfEquations.java) (Medium)
 
 #### [Design](problems/src/design)
 
@@ -226,6 +228,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [IPO](problems/src/greedy/IPO.java) (Hard)
 - [String Without AAA or BBB](problems/src/greedy/StringWithout3A3B.java) (Medium)
 - [Boats to Save People](problems/src/greedy/BoatsToSavePeople.java) (Medium)
+- [Broken Calculator](problems/src/greedy/BrokenCalculator.java) (Medium)
 
 #### [Hashing](problems/src/hashing)
 
@@ -341,6 +344,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Split Concatenated Strings](problems/src/string/SplitConcatenatedStrings.java) (Medium)
 - [Valid Word Square](problems/src/string/ValidWordSquare.java) (Easy)
 - [Reconstruct Original Digits from English](problems/src/string/ReconstructOriginalDigitsFromEnglish.java) (Medium)
+- [Push Dominoes](problems/src/string/PushDominoes.java) (Medium)
 
 #### [Tree](problems/src/tree)
 
@@ -404,4 +408,5 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Smallest Range](problems/src/two_pointers/SmallestRange.java) (Hard)
 - [Subarray Product Less Than K](problems/src/two_pointers/SubarrayProductLessThanK.java) (Medium)
 - [Number of Matching Subsequences](problems/src/two_pointers/NumberOfMatchingSubsequences.java) (Medium)
+- [Subarrays with K Different Integers](problems/src/two_pointers/SubarraysWithKDifferentIntegers.java) (Hard)
 

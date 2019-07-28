@@ -1,5 +1,5 @@
-package math;
-import java.util.*;
+package string;
+
 /**
  * Created by gouthamvidyapradhan on 24/07/2019 There are N dominoes in a line, and we place each
  * domino vertically upright.
@@ -32,44 +32,44 @@ import java.util.*;
  * <p>Input: "RR.L" Output: "RR.L" Explanation: The first domino expends no additional force on the
  * second domino. Note:
  *
- * <p>0 <= N <= 10^5 String dominoes contains only 'L', 'R' and '.'
+ * <p>0 <= N <= 10^5 String dominoes contains only 'L', 'R' and '.' Solution: O(N)
  */
-public class Task2 {
+public class PushDominoes {
   public static void main(String[] args) {
-    System.out.println(new Task2().pushDominoes("RR.L"));
+    System.out.println(new PushDominoes().pushDominoes("RR.L"));
   }
 
-    public String pushDominoes(String dominoes) {
-        int R = -1, L = -1;
-        char[] A = dominoes.toCharArray();
-        for(int i = 0; i < A.length; i ++){
-            if(A[i] == 'L'){
-                if(R > L){
-                    int d = (i - R);
-                    int st;
-                    st = R + d/2;
-                    if((d % 2) == 0){
-                        A[st] = '.';
-                    }
-                    for(int j = st + 1; j < i; j ++){
-                        A[j] = 'L';
-                    }
-                } else{
-                    for(int j = (L == -1 ? 0 : L); j < i; j ++){
-                        A[j] = 'L';
-                    }
-                }
-                L = i;
-            } else {
-                if(A[i] == 'R'){
-                    R = i;
-                } else{
-                    if(R > L){
-                        A[i] = 'R';
-                    }
-                }
-            }
+  public String pushDominoes(String dominoes) {
+    int R = -1, L = -1;
+    char[] A = dominoes.toCharArray();
+    for (int i = 0; i < A.length; i++) {
+      if (A[i] == 'L') {
+        if (R > L) {
+          int d = (i - R);
+          int st;
+          st = R + d / 2;
+          if ((d % 2) == 0) {
+            A[st] = '.';
+          }
+          for (int j = st + 1; j < i; j++) {
+            A[j] = 'L';
+          }
+        } else {
+          for (int j = (L == -1 ? 0 : L); j < i; j++) {
+            A[j] = 'L';
+          }
         }
-        return String.valueOf(A);
+        L = i;
+      } else {
+        if (A[i] == 'R') {
+          R = i;
+        } else {
+          if (R > L) {
+            A[i] = 'R';
+          }
+        }
+      }
     }
+    return String.valueOf(A);
+  }
 }

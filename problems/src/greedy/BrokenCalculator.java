@@ -1,5 +1,7 @@
-package heap;
+package greedy;
+
 import java.util.*;
+
 /**
  * Created by gouthamvidyapradhan on 25/07/2019 On a broken calculator that has a number showing on
  * its display, we can perform two operations:
@@ -26,33 +28,33 @@ import java.util.*;
  *
  * <p>1 <= X <= 10^9 1 <= Y <= 10^9
  *
- * Solution: O(log Y) Arrive at the solution by working backwards starting from Y.
- * General idea is as follows.
- * If Y is even then find the minimum steps required to arrive at Y by finding the quotient after dividing by 2. If Y
- * is odd then find the minimum steps required to arrive at Y + 1 (even number) + 1 (to move backwards)
+ * <p>Solution: O(log Y) Arrive at the solution by working backwards starting from Y. General idea
+ * is as follows. If Y is even then find the minimum steps required to arrive at Y by finding the
+ * quotient after dividing by 2. If Y is odd then find the minimum steps required to arrive at Y + 1
+ * (even number) + 1 (to move backwards)
  */
 public class BrokenCalculator {
   public static void main(String[] args) {
     //
   }
 
-    public int brokenCalc(int X, int Y) {
-        if(X == Y) return 0;
-        else if(Y < X) return X - Y;
-        else {
-            int count = 0;
-            while(Y > X){
-                if(Y % 2 == 0){
-                    Y /= 2;
-                    count++;
-                } else{
-                    Y += 1;
-                    Y /= 2;
-                    count+=2;
-                }
-            }
-            if(X == Y) return count;
-            else return count + (X - Y);
+  public int brokenCalc(int X, int Y) {
+    if (X == Y) return 0;
+    else if (Y < X) return X - Y;
+    else {
+      int count = 0;
+      while (Y > X) {
+        if (Y % 2 == 0) {
+          Y /= 2;
+          count++;
+        } else {
+          Y += 1;
+          Y /= 2;
+          count += 2;
         }
+      }
+      if (X == Y) return count;
+      else return count + (X - Y);
     }
+  }
 }
