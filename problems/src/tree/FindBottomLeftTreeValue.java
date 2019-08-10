@@ -13,6 +13,8 @@ package tree;
  * <p>1 / \ 2 3 / / \ 4 5 6 / 7
  *
  * <p>Output: 7 Note: You may assume the tree (i.e., the given root node) is not NULL.
+ * Solution: O(N) do a inorder search to find the left most value. Keep a level counter to keep track of what level
+ * you are at when you do a inorder search.
  */
 public class FindBottomLeftTreeValue {
   private int max = 0, result;
@@ -39,18 +41,18 @@ public class FindBottomLeftTreeValue {
   }
 
   public int findBottomLeftValue(TreeNode root) {
-    preorder(root, 1);
+    inorder(root, 1);
     return result;
   }
 
-  private void preorder(TreeNode node, int level) {
+  private void inorder(TreeNode node, int level) {
     if (node != null) {
       if (level > max) {
         result = node.val;
         max = level;
       }
-      preorder(node.left, level + 1);
-      preorder(node.right, level + 1);
+      inorder(node.left, level + 1);
+      inorder(node.right, level + 1);
     }
   }
 }

@@ -50,6 +50,9 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Max Consecutive Ones](problems/src/array/MaxConsecutiveOnes.java) (Easy)
 - [Max Consecutive Ones II](problems/src/array/MaxConsecutiveOnesII.java) (Medium)
 - [Add to Array-Form of Integer](problems/src/array/AddToArrayFormOfInteger.java) (Easy)
+- [Find Pivot Index](problems/src/array/FindPivotIndex.java) (Easy)
+- [Largest Time for Given Digits](problems/src/array/LargestTimeForGivenDigits.java) (Easy)
+- [Minimum Time Difference](problems/src/array/MinimumTimeDifference.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -87,6 +90,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [H-Index II](problems/src/binary_search/HIndexII.java) (Medium)
 - [Swim in Rising Water](problems/src/binary_search/SwimInRisingWater.java) (Hard)
 - [Time Based Key-Value Store](problems/src/binary_search/TimeBasedKeyValuePair.java) (Medium)
+- [Minimum Window Subsequence](problems/src/binary_search/MinimumWindowSubsequence.java) (Hard)
 
 #### [Bit Manipulation](problems/src/bit_manipulation)
 
@@ -131,6 +135,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [All Paths From Source to Target](problems/src/depth_first_search/AllPathsFromSourceToTarget.java) (Medium)
 - [Max Area of Island](problems/src/depth_first_search/MaxAreaOfIsland.java) (Medium)
 - [Satisfiability of Equality Equations](problems/src/depth_first_search/SatisfiabilityOfEquations.java) (Medium)
+- [Number of Enclaves](problems/src/depth_first_search/NumberOfEnclaves.java) (Medium)
 
 #### [Design](problems/src/design)
 
@@ -157,6 +162,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Reverse Pairs](problems/src/divide_and_conquer/ReversePairs.java) (Hard)
 - [Search in a 2D Matrix](problems/src/divide_and_conquer/SearchA2DMatrix.java) (Medium)
 - [24 Game](problems/src/divide_and_conquer/TwentyFourGame.java) (Hard)
+- [Reverse Pairs II](problems/src/divide_and_conquer/ReversePairsII.java) (Hard)
 
 #### [Dynamic Programming](problems/src/dynamic_programming)
 
@@ -211,6 +217,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Out of Boundary Paths](problems/src/dynamic_programming/OutOfBoundaryPaths.java) (Medium)
 - [Remove Boxes](problems/src/dynamic_programming/RemoveBoxes.java) (Hard)
 - [Stickers to Spell Word](problems/src/dynamic_programming/StickersToSpellWord.java) (Hard)
+- [Ones and Zeroes](problems/src/dynamic_programming/OnesAndZeroes.java) (Medium)
 
 #### [Greedy](problems/src/greedy)
 
@@ -247,6 +254,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Substring with Concatenation of All Words](problems/src/hashing/SubstringConcatenationOfWords.java) (Hard)
 - [Distribute Candies](problems/src/hashing/DistributeCandies.java) (Easy)
 - [Groups of Special-Equivalent Strings](problems/src/hashing/GroupsOfSpecialEquivalentStrings.java) (Easy)
+- [Number of Atoms](problems/src/hashing/NumberOfAtoms.java) (Hard)
 
 #### [Heap](problems/src/heap)
 
@@ -271,6 +279,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Reverse Nodes in k-Group](problems/src/linked_list/ReverseNodesKGroup.java) (Hard)
 - [Swap Nodes in Pairs](problems/src/linked_list/SwapNodesInPairs.java) (Medium)
 - [Middle of Linked List](problems/src/linked_list/MiddleOfLinkedList.java) (Easy)
+- [Split Linked List in Parts](problems/src/linked_list/SplitLinkedListInParts.java) (Medium)
+- [Next Greater Node In Linked List](problems/src/linked_list/NextGreaterNodeInLinkedList.java) (Medium)
 
 #### [Math](problems/src/math)
 
@@ -290,6 +300,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Squirrel Simulation](problems/src/math/SquirrelSimulation.java) (Medium)
 - [Projection Area of 3D Shapes](problems/src/math/ProjectionAreaOf3DShapes.java) (Easy)
 - [Decoded String at Index](problems/src/math/DecodedStringAtIndex.java) (Medium)
+- [Base 7](problems/src/math/Base7.java) (Easy)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 
@@ -345,6 +356,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Valid Word Square](problems/src/string/ValidWordSquare.java) (Easy)
 - [Reconstruct Original Digits from English](problems/src/string/ReconstructOriginalDigitsFromEnglish.java) (Medium)
 - [Push Dominoes](problems/src/string/PushDominoes.java) (Medium)
+- [Validate IP Address](problems/src/string/ValidateIPAddress.java) (Medium)
+- [Reverse String II](problems/src/string/ReverseStringII.java) (Easy)
 
 #### [Tree](problems/src/tree)
 
@@ -380,7 +393,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Average of Levels in Binary Tree](problems/src/tree/AverageOfLevelsInBinaryTree.java) (Easy)
 - [Convert Binary Search Tree to Sorted Doubly Linked List](problems/src/tree/BSTtoDoublyLinkedList.java) (Easy)
 - [Same Tree](problems/src/tree/SameTree.java) (Easy)
-- [Binary Tree Longest Consecutive Sequence II](problems/src/tree/BinaryTreeLongestConsecutiveSequenceII.java) (Medium)
+- [Binary Tree Longest Consecutive SequencefindMinDifference II](problems/src/tree/BinaryTreeLongestConsecutiveSequenceII.java) (Medium)
 - [Minimum Absolute Difference in BST](problems/src/tree/MinimumAbsoluteDifferenceInBST.java) (Medium)
 - [Equal Tree Partition](problems/src/tree/EqualTreePartition.java) (Medium)
 - [Split BST](problems/src/tree/SplitBST.java) (Medium)
@@ -392,6 +405,10 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Convert BST to Greater Tree](problems/src/tree/ConvertBSTToGreaterTree.java) (Easy)
 - [All Nodes Distance K in Binary Tree](problems/src/tree/AllNodesDistanceKInBinaryTree.java) (Medium)
 - [All Possible Full Binary Trees](problems/src/tree/AllPossibleFullBinaryTrees.java) (Medium)
+- [Flip Equivalent Binary Trees](problems/src/tree/FlipEquivalentBinaryTrees.java) (Medium)
+- [Construct Binary Tree from String](problems/src/tree/ConstructBinaryTreefromString.java) (Medium)
+- [Find Largest Value in Each Tree Row](problems/src/tree/FindLargestValueInEachTreeRow.java) (Medium)
+- [Find Bottom Left Tree Value](problems/src/tree/FindBottomLeftTreeValue.java) (Medium)
 
 #### [Two Pointers](problems/src/two_pointers)
 
