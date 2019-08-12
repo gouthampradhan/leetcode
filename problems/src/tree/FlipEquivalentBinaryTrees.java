@@ -19,19 +19,22 @@ package tree;
  * <p>Note:
  *
  * <p>Each tree will have at most 100 nodes. Each value in each tree will be a unique integer in the
- * range [0, 99].
- * Solution O(N ^ 2) Since the node values are unique general idea is to find the node on right tree for every node
- * on the left tree and check if the values need to be swapped, if yes then swap the node's left and right child in
- * the left tree. After this operation is complete check if both the trees are equal
+ * range [0, 99]. Solution O(N ^ 2) Since the node values are unique general idea is to find the
+ * node on right tree for every node on the left tree and check if the values need to be swapped, if
+ * yes then swap the node's left and right child in the left tree. After this operation is complete
+ * check if both the trees are equal
  */
 public class FlipEquivalentBinaryTrees {
 
   public static class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
- }
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+      val = x;
+    }
+  }
 
   public static void main(String[] args) {
     TreeNode node = new TreeNode(1);
@@ -59,49 +62,51 @@ public class FlipEquivalentBinaryTrees {
     return checkIfBothAreSame(root1, root2);
   }
 
-  private boolean checkIfBothAreSame(TreeNode root1, TreeNode root2){
-    if(root1 == null && root2 == null) return true;
-    else if(root1 == null) return false;
-    else if(root2 == null) return false;
+  private boolean checkIfBothAreSame(TreeNode root1, TreeNode root2) {
+    if (root1 == null && root2 == null) return true;
+    else if (root1 == null) return false;
+    else if (root2 == null) return false;
     else {
-      if(root1.val != root2.val) return false;
-      if(!checkIfBothAreSame(root1.left, root2.left)) return false;
+      if (root1.val != root2.val) return false;
+      if (!checkIfBothAreSame(root1.left, root2.left)) return false;
       return checkIfBothAreSame(root1.right, root2.right);
     }
   }
 
-  private void flip(TreeNode root1, TreeNode root2){
-    if(root1 != null){
+  private void flip(TreeNode root1, TreeNode root2) {
+    if (root1 != null) {
       TreeNode result = find(root2, root1.val);
       boolean valid = true;
-      if(result != null){
-        if(root1.left == null){
-          if(result.right != null){
-            valid = false;
-          }
-        }if(root1.right == null){
-          if(result.left != null){
+      if (result != null) {
+        if (root1.left == null) {
+          if (result.right != null) {
             valid = false;
           }
         }
-        if(root1.left != null){
-          if(result.right == null){
+        if (root1.right == null) {
+          if (result.left != null) {
             valid = false;
-          } else {
-            if(root1.left.val != result.right.val){
-              valid = false;
-            }
           }
-        } if(root1.right != null){
-          if(result.left == null){
+        }
+        if (root1.left != null) {
+          if (result.right == null) {
             valid = false;
           } else {
-            if(root1.right.val != result.left.val){
+            if (root1.left.val != result.right.val) {
               valid = false;
             }
           }
         }
-        if(valid){
+        if (root1.right != null) {
+          if (result.left == null) {
+            valid = false;
+          } else {
+            if (root1.right.val != result.left.val) {
+              valid = false;
+            }
+          }
+        }
+        if (valid) {
           TreeNode temp = result.left;
           result.left = result.right;
           result.right = temp;
@@ -112,13 +117,14 @@ public class FlipEquivalentBinaryTrees {
     }
   }
 
-  private TreeNode find(TreeNode node, int value){
-    if(node != null){
-      if(node.val ==  value) return node;
+  private TreeNode find(TreeNode node, int value) {
+    if (node != null) {
+      if (node.val == value) return node;
       TreeNode left = find(node.left, value);
-      if(left != null) return left;
+      if (left != null) return left;
       TreeNode right = find(node.right, value);
-      if(right != null) return right;
-    } return null;
+      if (right != null) return right;
+    }
+    return null;
   }
 }

@@ -1,5 +1,7 @@
 package linked_list;
+
 import java.util.*;
+
 /**
  * Created by gouthamvidyapradhan on 06/08/2019 Given a (singly) linked list with head node root,
  * write a function to split the linked list into k consecutive linked list "parts".
@@ -25,65 +27,69 @@ import java.util.*;
  * <p>The length of root will be in the range [0, 1000]. Each value of a node in the input will be
  * an integer in the range [0, 999]. k will be an integer in the range [1, 50].
  *
- * Solution O(N) do a linear scan and split the array by required size.
+ * <p>Solution O(N) do a linear scan and split the array by required size.
  */
 public class SplitLinkedListInParts {
-   public static class ListNode {
+  public static class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
- }
+
+    ListNode(int x) {
+      val = x;
+    }
+  }
+
   public static void main(String[] args) {
-       ListNode root = new ListNode(1);
-       root.next = new ListNode(2);
-       root.next.next = new ListNode(3);
-        ListNode[] result = new SplitLinkedListInParts().splitListToParts(root, 5);
+    ListNode root = new ListNode(1);
+    root.next = new ListNode(2);
+    root.next.next = new ListNode(3);
+    ListNode[] result = new SplitLinkedListInParts().splitListToParts(root, 5);
     System.out.println(result);
   }
 
-    public ListNode[] splitListToParts(ListNode root, int k) {
-        List<Integer> list = new ArrayList<>();
-        while(root != null){
-            list.add(root.val);
-            root = root.next;
-        }
-        int tempK = k;
-        int N = list.size();
-        List<ListNode> result = new ArrayList<>();
-        ListNode head = new ListNode(-1);
-        ListNode prev = head;
-        int i = 0, j = 0;
-        int count = 0;
-        int P = N / tempK;
-        if((N % tempK) > 0){
-            P++;
-        }
-        for(; j < N; ){
-            if(j - i < P){
-                prev.next = new ListNode(list.get(j));
-                prev = prev.next;
-                j ++;
-                count ++;
-            } else{
-                result.add(head.next);
-                i = j;
-                head = new ListNode(-1);
-                prev = head;
-                tempK --;
-                P = (N - count) / tempK;
-                if(((N - count) % tempK) > 0){
-                    P++;
-                }
-            }
-        }
-        result.add(head.next);
-        while(result.size() < k){
-            result.add(null);
-        }
-        ListNode[] nodes = new ListNode[result.size()];
-        for(int l = 0; l < result.size(); l ++){
-            nodes[l] = result.get(l);
-        }
-        return nodes;
+  public ListNode[] splitListToParts(ListNode root, int k) {
+    List<Integer> list = new ArrayList<>();
+    while (root != null) {
+      list.add(root.val);
+      root = root.next;
     }
+    int tempK = k;
+    int N = list.size();
+    List<ListNode> result = new ArrayList<>();
+    ListNode head = new ListNode(-1);
+    ListNode prev = head;
+    int i = 0, j = 0;
+    int count = 0;
+    int P = N / tempK;
+    if ((N % tempK) > 0) {
+      P++;
+    }
+    for (; j < N; ) {
+      if (j - i < P) {
+        prev.next = new ListNode(list.get(j));
+        prev = prev.next;
+        j++;
+        count++;
+      } else {
+        result.add(head.next);
+        i = j;
+        head = new ListNode(-1);
+        prev = head;
+        tempK--;
+        P = (N - count) / tempK;
+        if (((N - count) % tempK) > 0) {
+          P++;
+        }
+      }
+    }
+    result.add(head.next);
+    while (result.size() < k) {
+      result.add(null);
+    }
+    ListNode[] nodes = new ListNode[result.size()];
+    for (int l = 0; l < result.size(); l++) {
+      nodes[l] = result.get(l);
+    }
+    return nodes;
+  }
 }

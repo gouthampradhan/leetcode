@@ -53,6 +53,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Find Pivot Index](problems/src/array/FindPivotIndex.java) (Easy)
 - [Largest Time for Given Digits](problems/src/array/LargestTimeForGivenDigits.java) (Easy)
 - [Minimum Time Difference](problems/src/array/MinimumTimeDifference.java) (Medium)
+- [Reveal Cards In Increasing Order](problems/src/array/RevealCardsInIncreasingOrder.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 

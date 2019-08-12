@@ -18,8 +18,8 @@ package array;
  *
  * <p>Note:
  *
- * <p>A.length == 4 0 <= A[i] <= 9
- * Solution O(N ^ 4) Check all combinations of time possible and return the maximum possible as the answer.
+ * <p>A.length == 4 0 <= A[i] <= 9 Solution O(N ^ 4) Check all combinations of time possible and
+ * return the maximum possible as the answer.
  */
 public class LargestTimeForGivenDigits {
   public static void main(String[] args) {
@@ -30,18 +30,18 @@ public class LargestTimeForGivenDigits {
   public String largestTimeFromDigits(int[] A) {
     int max = -1;
     String result = "";
-    for(int i = 0; i < A.length; i ++){
-      if(A[i] > 2) continue;
-      for(int j = 0; j < A.length; j ++){
-        if(j == i) continue;
-        if(A[i] == 2 && A[j] > 3) continue;
-        for(int k = 0; k < A.length; k ++){
-          if(k == i || k == j) continue;
-          if(A[k] > 5) continue;
-          for(int l = 0; l < A.length; l ++){
-            if(l == i || l == j || l == k) continue;
+    for (int i = 0; i < A.length; i++) {
+      if (A[i] > 2) continue;
+      for (int j = 0; j < A.length; j++) {
+        if (j == i) continue;
+        if (A[i] == 2 && A[j] > 3) continue;
+        for (int k = 0; k < A.length; k++) {
+          if (k == i || k == j) continue;
+          if (A[k] > 5) continue;
+          for (int l = 0; l < A.length; l++) {
+            if (l == i || l == j || l == k) continue;
             int value = ((A[i] * 10 + A[j]) * 60) + A[k] * 10 + A[l];
-            if(value > max){
+            if (value > max) {
               max = value;
               result = A[i] + "" + A[j] + ":" + A[k] + "" + A[l];
             }
