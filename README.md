@@ -59,6 +59,10 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Maximum Sum of Two Non-Overlapping Subarrays](problems/src/array/MaximumSumofTwoNonOverlappingSubarrays.java) (Medium)
 - [Longest Line of Consecutive One in Matrix](problems/src/array/LongestLineofConsecutiveOneinMatrix.java) (Medium)
 - [Array Partition I](problems/src/array/ArrayPartitionI.java) (Easy)
+- [Relative Sort Array](problems/src/array/RelativeSortArray.java) (Easy)
+- [Meeting Scheduler](problems/src/array/MeetingScheduler.java) (Medium)
+- [Minimum Swaps to Group All 1's Together](problems/src/array/MinimumSwapsToGroupAll1Together.java) (Medium)
+- [Array Nesting](problems/src/array/ArrayNesting.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
@@ -98,6 +102,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Time Based Key-Value Store](problems/src/binary_search/TimeBasedKeyValuePair.java) (Medium)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimum Window Subsequence](problems/src/binary_search/MinimumWindowSubsequence.java) (Hard)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Koko Eating Bananas](problems/src/binary_search/KokoEatingBananas.java) (Hard)
+- [Single Element in a Sorted Array](problems/src/binary_search/SingleElementInASortedArray.java) (Medium)
 
 #### [Bit Manipulation](problems/src/bit_manipulation)
 
@@ -106,6 +111,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Total Hamming Distance](problems/src/bit_manipulation/TotalHammingDistance.java) (Medium)
 - [Divide Two Integers](problems/src/bit_manipulation/DivideTwoIntegers.java) (Medium)
 - [Binary Number with Alternating Bits](problems/src/bit_manipulation/BinaryNumberWithAlternatingBits.java) (Easy)
+- [Binary Watch](problems/src/bit_manipulation/BinaryWatch.java) (Easy)
 
 #### [Breadth First Search](problems/src/breadth_first_search)
 
@@ -119,6 +125,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Bus Routes](problems/src/breadth_first_search/BusRoutes.java) (Hard)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Sliding Puzzle](problems/src/breadth_first_search/SlidingPuzzle.java) (Hard)
 - [Matrix](problems/src/breadth_first_search/Matrix.java) (Medium)
+- [Rotting Oranges](problems/src/breadth_first_search/RottingOranges.java) (Medium)
 
 #### [Depth First Search](problems/src/depth_first_search)
 
@@ -145,6 +152,9 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Number of Enclaves](problems/src/depth_first_search/NumberOfEnclaves.java) (Medium)
 - [As Far from Land as Possible](problems/src/depth_first_search/AsFarfromLandAsPossible.java) (Medium)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimize Malware Spread](problems/src/depth_first_search/MinimizeMalwareSpread.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Parallel Courses](problems/src/depth_first_search/ParallelCourses.java) (Hard)
+- [Connecting Cities With Minimum Cost](problems/src/depth_first_search/ConnectingCitiesWithMinimumCost.java) (Medium)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Critical Connections in a Network](problems/src/depth_first_search/CriticalConnection.java) (Hard)
 
 #### [Design](problems/src/design)
 
@@ -172,6 +182,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Search in a 2D Matrix](problems/src/divide_and_conquer/SearchA2DMatrix.java) (Medium)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [24 Game](problems/src/divide_and_conquer/TwentyFourGame.java) (Hard)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Reverse Pairs II](problems/src/divide_and_conquer/ReversePairsII.java) (Hard)
+- [My Calendar II](problems/src/divide_and_conquer/MyCalendarII.java) (Medium)
 
 #### [Dynamic Programming](problems/src/dynamic_programming)
 
@@ -229,7 +240,32 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Ones and Zeroes](problems/src/dynamic_programming/OnesAndZeroes.java) (Medium)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Encode String with Shortest Length](problems/src/dynamic_programming/EncodeStringWithShortestLength.java) (Hard)
 - [Length of Longest Fibonacci Subsequence](problems/src/dynamic_programming/LengthofLongestFibonacciSubsequence.java) (Medium)
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Encode String with Shortest Length](problems/src/dynamic_programming/EncodeStringWithShortestLength.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Make Array Strictly Increasing](problems/src/dynamic_programming/MakeArrayStrictlyIncreasing.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimum Number of Taps to Open to Water a Garden](problems/src/dynamic_programming/MinimumNumberOfTaps.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Delete Columns to Make Sorted III](problems/src/dynamic_programming/DeleteColumnsToMakeSortedIII.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Handshakes That Don't Cross](problems/src/dynamic_programming/HandshakesThatDontCross.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimum Difficulty of a Job Schedule](problems/src/dynamic_programming/MinimumDifficultyOfAJobSchedule.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Jump Game V](problems/src/dynamic_programming/JumpGameV.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Freedom Trail](problems/src/dynamic_programming/FreedomTrail.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Strange Printer](problems/src/dynamic_programming/StrangePrinter.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimum Cost to Merge Stones](problems/src/dynamic_programming/MinimumCostToMergeStones.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Interleaving String](problems/src/dynamic_programming/InterleavingString.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Count Vowels Permutation](problems/src/dynamic_programming/CountVowelsPermutation.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Non-negative Integers without Consecutive Ones](problems/src/dynamic_programming/NonNegativeIntegersWithoutConsecutiveOnes.java) (Hard)
+- [Bomb Enemy](problems/src/dynamic_programming/BombEnemy.java) (Medium)
+- [Number of Dice Rolls With Target Sum](problems/src/dynamic_programming/NumberOfDiceRollsWithTargetSum.java) (Medium)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Distinct Subsequences](problems/src/dynamic_programming/DistinctSubsequences.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Distinct Subsequences II](problems/src/dynamic_programming/DistinctSubsequencesII.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimum Distance to Type a Word Using Two Fingers](problems/src/dynamic_programming/MinimumDistanceToTypeAWordUsingTwoFingers.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Valid Palindrome III](problems/src/dynamic_programming/ValidPalindromeIII.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Palindrome Partitioning III](problems/src/dynamic_programming/PalindromePartitioningIII.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Tiling a Rectangle with the Fewest Squares](problems/src/dynamic_programming/TilingARectangle.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Longest Chunked Palindrome Decomposition](problems/src/dynamic_programming/LongestChunkedPalindromeDecomposition.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Stone Game III](problems/src/dynamic_programming/StoneGameIII.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Number of Ways to Stay in the Same Place After Some Steps](problems/src/dynamic_programming/NumberOfWaysToStayInTheSamePlace.java) (Hard)
+- [Toss Strange Coins](problems/src/dynamic_programming/TossStrangeCoins.java) (Medium)
+- [Knight Dialer](problems/src/dynamic_programming/KnightDialer.java) (Medium)
+
 
 #### [Greedy](problems/src/greedy)
 
@@ -249,6 +285,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Boats to Save People](problems/src/greedy/BoatsToSavePeople.java) (Medium)
 - [Broken Calculator](problems/src/greedy/BrokenCalculator.java) (Medium)
 - [Two City Scheduling](problems/src/greedy/TwoCityScheduling.java) (Easy)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimum Time to Build Blocks](problems/src/greedy/MinimumTimeToBuildBlocks.java) (Hard)
 
 #### [Hashing](problems/src/hashing)
 
@@ -268,6 +305,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Distribute Candies](problems/src/hashing/DistributeCandies.java) (Easy)
 - [Groups of Special-Equivalent Strings](problems/src/hashing/GroupsOfSpecialEquivalentStrings.java) (Easy)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Number of Atoms](problems/src/hashing/NumberOfAtoms.java) (Hard)
+- [Analyze User Website Visit Pattern](problems/src/hashing/AnalyzeUserWebsiteVisitPattern.java) (Medium)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [String Transforms Into Another String](problems/src/hashing/StringTransformsIntoAnotherString.java) (Hard)
 
 #### [Heap](problems/src/heap)
 
@@ -279,6 +318,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Smallest Rotation with Highest Score](problems/src/heap/SmallestRotationWithHighestScore.java) (Hard)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Maximum Frequency Stack](problems/src/heap/FreqStack.java) (Hard)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Reachable Nodes In Subdivided Graph](problems/src/heap/ReachableNodesInSubdividedGraph.java) (Hard)
+- [K Closest Points to Origin](problems/src/heap/KClosestPointsToOrigin.java) (Medium)
+- [Distant Barcodes](problems/src/heap/DistantBarcodes.java) (Medium)
 
 #### [Linked List](problems/src/linked_list)
 
@@ -316,6 +357,9 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Base 7](problems/src/math/Base7.java) (Easy)
 - [Smallest Range I](problems/src/math/SmallestRangeI.java) (Easy)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Largest Component Size by Common Factor](problems/src/math/LargestComponentSizebyCommonFactor.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Super Washing Machines](problems/src/math/SuperWashingMachines.java) (Hard)
+- [Rectangle Overlap](problems/src/math/RectangleOverlap.java) (Easy)
+- [Nth Digit](problems/src/math/NthDigit.java) (Easy)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 

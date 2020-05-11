@@ -1,7 +1,5 @@
 package dynamic_programming;
 
-import java.util.Arrays;
-
 /**
  * Created by gouthamvidyapradhan on 02/01/2018. Given n balloons, indexed from 0 to n-1. Each
  * balloon is painted with a number on it represented by array nums. You are asked to burst all the
@@ -52,11 +50,28 @@ public class BurstBalloons {
     for (int i = 0; i < nums.length; i++) {
       N[i + 1] = nums[i];
     }
+    int[][] DP = new int[N.length][N.length];
+    for (int r = 2; r < N.length; r++) {
+      for (int i = 0; i < N.length; i++) {
+        int j = i + r;
+        if (j < N.length) {
+          int max = Integer.MIN_VALUE;
+          for (int t = i + 1; t < j; t++) {
+            max = Math.max(max, N[t] * N[i] * N[j] + DP[t][j] + DP[i][t]);
+          }
+          DP[i][j] = max;
+        }
+      }
+    }
+    return DP[0][N.length - 1];
+    /*    for (int i = 0; i < nums.length; i++) {
+      N[i + 1] = nums[i];
+    }
     dp = new int[N.length][N.length];
     for (int[] aDp : dp) {
       Arrays.fill(aDp, -1);
-    }
-    return dp(0, N.length - 1);
+    }*/
+    //    return dp(0, N.length - 1);
   }
 
   private int dp(int l, int r) {
