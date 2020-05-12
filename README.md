@@ -265,6 +265,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Number of Ways to Stay in the Same Place After Some Steps](problems/src/dynamic_programming/NumberOfWaysToStayInTheSamePlace.java) (Hard)
 - [Toss Strange Coins](problems/src/dynamic_programming/TossStrangeCoins.java) (Medium)
 - [Knight Dialer](problems/src/dynamic_programming/KnightDialer.java) (Medium)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Palindrome Removal](problems/src/dynamic_programming/PalindromeRemoval.java) (Hard)
 
 
 #### [Greedy](problems/src/greedy)
