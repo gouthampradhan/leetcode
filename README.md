@@ -361,6 +361,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Super Washing Machines](problems/src/math/SuperWashingMachines.java) (Hard)
 - [Rectangle Overlap](problems/src/math/RectangleOverlap.java) (Easy)
 - [Nth Digit](problems/src/math/NthDigit.java) (Easy)
+- [Integer to Roman](problems/src/math/IntegerToRoman.java) (Medium)
 
 #### [Reservoir Sampling](problems/src/reservoir_sampling)
 
