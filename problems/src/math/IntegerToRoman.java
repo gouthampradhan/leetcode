@@ -1,6 +1,6 @@
 public class IntegerToRoman{
     public static void main(String[] args){
-        numberToRoman(55);
+        System.out.println(numberToRoman(55));
     }
 
     public static String numberToRoman(int number){//Converts a number into a roman numerial
