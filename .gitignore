@@ -13,5 +13,5 @@ leetcode.ipr
 leetcode.iws
 out/
 problems/src.iml
-.idea/*
+.idea
 .gradle/

@@ -266,6 +266,17 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Toss Strange Coins](problems/src/dynamic_programming/TossStrangeCoins.java) (Medium)
 - [Knight Dialer](problems/src/dynamic_programming/KnightDialer.java) (Medium)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Palindrome Removal](problems/src/dynamic_programming/PalindromeRemoval.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Restore The Array](problems/src/dynamic_programming/RestoreTheArray.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Cherry Pickup II](problems/src/dynamic_programming/CherryPickupII.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Constrained Subsequence Sum](problems/src/dynamic_programming/ConstrainedSubsequenceSum.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Largest Multiple of Three](problems/src/dynamic_programming/LargestMultipleOfThree.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Largest Multiple of Three](problems/src/dynamic_programming/MaximumProfitInJobScheduling.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Number of Music Playlists](problems/src/dynamic_programming/NumberOfMusicPlaylists.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Paint House III](problems/src/dynamic_programming/PaintHouseIII.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Shortest Path Visiting All Nodes](problems/src/dynamic_programming/ShortestPathVisitingAllNodes.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Smallest Sufficient Team](problems/src/dynamic_programming/SmallestSufficientTeam.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Stone Game IV](problems/src/dynamic_programming/StoneGameIV.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Tallest Billboard](problems/src/dynamic_programming/TallestBillboard.java) (Hard)
 
 
 #### [Greedy](problems/src/greedy)
@@ -287,6 +298,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Broken Calculator](problems/src/greedy/BrokenCalculator.java) (Medium)
 - [Two City Scheduling](problems/src/greedy/TwoCityScheduling.java) (Easy)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimum Time to Build Blocks](problems/src/greedy/MinimumTimeToBuildBlocks.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Reducing Dishes](problems/src/greedy/ReducingDishes.java) (Hard)
 
 #### [Hashing](problems/src/hashing)
 
