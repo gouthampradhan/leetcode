@@ -278,6 +278,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Stone Game IV](problems/src/dynamic_programming/StoneGameIV.java) (Hard)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Tallest Billboard](problems/src/dynamic_programming/TallestBillboard.java) (Hard)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Count Different Palindromic Subsequences](problems/src/dynamic_programming/CountDifferentPalindromicSubsequences.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Number of Paths with Max Score](problems/src/dynamic_programming/NumberOfPathsWithMaxScore.java) (Hard)
 
 
 #### [Greedy](problems/src/greedy)

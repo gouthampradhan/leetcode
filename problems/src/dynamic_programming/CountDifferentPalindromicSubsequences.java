@@ -23,7 +23,7 @@ import java.util.Arrays;
  * <p>The length of S will be in the range [1, 1000]. Each character S[i] will be in the set {'a',
  * 'b', 'c', 'd'}.
  *
- * Solution: O(N ^ 2) x 4
+ * <p>Solution: O(N ^ 2) x 4
  */
 public class CountDifferentPalindromicSubsequences {
   public static void main(String[] args) {
