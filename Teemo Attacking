@@ -1,0 +1,20 @@
+class Solution {
+    public int findPoisonedDuration(int[] t, int d) {
+        int n  = t.length;
+        if(n == 0)
+                return 0;
+        int total  = d;
+        int last = t[0] + d;
+        for(int i = 1;i<n;i++){
+            if(t[i]<last){
+                total += d - (last - t[i]);
+                last += d - (last - t[i]);         
+            }
+            else{
+                last = t[i] + d;
+                total += d;
+            }
+        }
+        return total;
+    }
+}
