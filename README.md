@@ -63,6 +63,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - [Meeting Scheduler](problems/src/array/MeetingScheduler.java) (Medium)
 - [Minimum Swaps to Group All 1's Together](problems/src/array/MinimumSwapsToGroupAll1Together.java) (Medium)
 - [Array Nesting](problems/src/array/ArrayNesting.java) (Medium)
+- [Group the People Given the Group Size They Belong To](problems/src/array/PeopleGroupBySize.java) (Medium)
 
 #### [Backtracking](problems/src/backtracking)
 
