@@ -29,7 +29,7 @@ import java.util.*;
  */
 public class FindWordsThatCanBeFormedbyCharacters {
   public static void main(String[] args) {
-    String[] A = {"cat", "bt", "hat", "tree"};
+    String[] A = {"cat", "bt", "hat", "problems/src/tree"};
     String chars = "atach";
     new FindWordsThatCanBeFormedbyCharacters().countCharacters(A, chars);
   }

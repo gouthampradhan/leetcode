@@ -15,3 +15,4 @@ out/
 problems/src.iml
 .idea
 .gradle/
+.DS_Store

@@ -8,5 +8,5 @@ dependencies {
 }
 
 repositories {
-    jcenter()  // or mavenCentral()
+    mavenCentral()
 }
