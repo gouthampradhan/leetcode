@@ -1,0 +1,25 @@
+/*
+Submitted by: Vaibhav Agarwal https://github.com/vacodr
+Problem: https://leetcode.com/problems/number-of-recent-calls/
+Difficulty: Easy
+*/
+
+class RecentCounter {
+     Queue<Integer> time = new LinkedList<Integer>();
+    public RecentCounter() {
+      
+    }
+    
+    public int ping(int t) {
+        time.add(t);
+        
+        while (time.peek() < t - 3000) {
+            
+        //System.out.printf(time.peek()+" ");
+            
+            time.poll();
+        }
+        return time.size();
+    }
+    
+}
