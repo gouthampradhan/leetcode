@@ -103,6 +103,7 @@ My accepted leetcode solutions to some of the common interview problems.
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimum Window Subsequence](src/main/java/binary_search/MinimumWindowSubsequence.java) (Hard)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Koko Eating Bananas](src/main/java/binary_search/KokoEatingBananas.java) (Hard)
 - [Single Element in a Sorted Array](src/main/java/binary_search/SingleElementInASortedArray.java) (Medium)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimize the Maximum Adjacent Element Difference](src/main/java/binary_search/MinimizeTheMaximumAdjacentElementDifference.java) (Hard)
 
 #### [Bit Manipulation](src/main/java/bit_manipulation)
 
