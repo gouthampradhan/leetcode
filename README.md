@@ -1,6 +1,7 @@
 # Leetcode solutions in Java
 
-My accepted leetcode solutions to some of the common interview problems.
+My accepted leetcode solutions to some of the common interview problems. 
+Also, some solutions have youtube video link. 
 
 #### [Array](src/main/java/array)
 
@@ -103,7 +104,8 @@ My accepted leetcode solutions to some of the common interview problems.
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimum Window Subsequence](src/main/java/binary_search/MinimumWindowSubsequence.java) (Hard)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Koko Eating Bananas](src/main/java/binary_search/KokoEatingBananas.java) (Hard)
 - [Single Element in a Sorted Array](src/main/java/binary_search/SingleElementInASortedArray.java) (Medium)
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimize the Maximum Adjacent Element Difference](src/main/java/binary_search/MinimizeTheMaximumAdjacentElementDifference.java) (Hard)
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimize the Maximum Adjacent Element Difference](src/main/java/binary_search/MinimizeTheMaximumAdjacentElementDifference.java) (Hard) 
+  - [Youtube video explanation](https://www.youtube.com/watch?v=2fCtjA_eitU&t=496s)
 
 #### [Bit Manipulation](src/main/java/bit_manipulation)
 
