@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package string;
 /**
  * Created by gouthamvidyapradhan on 20/03/2019 Given a string which consists of lowercase or

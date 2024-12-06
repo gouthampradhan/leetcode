@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package two_pointers;
 
 import java.util.ArrayList;

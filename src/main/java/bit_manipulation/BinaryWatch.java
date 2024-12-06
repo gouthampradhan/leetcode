@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package bit_manipulation;
 
 import java.util.*;

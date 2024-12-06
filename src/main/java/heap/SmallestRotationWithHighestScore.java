@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package heap;
 
 import java.util.Comparator;

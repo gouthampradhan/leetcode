@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package tree;
 
 import java.util.HashSet;

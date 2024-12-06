@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package dynamic_programming;
 /**
  * Created by gouthamvidyapradhan on 26/03/2019 There are G people in a gang, and a list of various

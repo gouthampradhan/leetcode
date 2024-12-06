@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package design;
 
 import java.util.HashMap;

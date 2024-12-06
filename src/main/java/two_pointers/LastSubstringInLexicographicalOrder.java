@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package two_pointers;
 /**
  * Created by gouthamvidyapradhan on 30/08/2019 Given a string s, return the last substring of s in

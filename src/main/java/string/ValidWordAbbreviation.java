@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package string;
 /**
  * Created by gouthamvidyapradhan on 20/03/2019 Given a non-empty string s and an abbreviation abbr,

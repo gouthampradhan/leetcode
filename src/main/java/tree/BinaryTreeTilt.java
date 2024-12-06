@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package tree;
 /**
  * Created by gouthamvidyapradhan on 14/08/2019 Given a binary tree, return the tilt of the whole

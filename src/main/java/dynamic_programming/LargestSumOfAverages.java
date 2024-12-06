@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package dynamic_programming;
 /**
  * Created by gouthamvidyapradhan on 04/05/2018. We partition a row of numbers A into at most K

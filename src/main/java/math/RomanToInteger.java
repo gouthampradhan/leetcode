@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package math;
 
 import java.util.HashMap;

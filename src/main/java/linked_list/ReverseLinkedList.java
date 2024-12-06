@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package linked_list;
 
 /** Created by gouthamvidyapradhan on 24/02/2017. Reverse a singly linked list. */

@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package linked_list;
 
 import java.util.*;

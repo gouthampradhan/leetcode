@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package stack;
 
 import java.util.Stack;

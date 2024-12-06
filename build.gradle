@@ -1,10 +1,29 @@
 plugins {
     id 'java'
-    id 'com.github.sherter.google-java-format' version '0.9'
+    id 'com.diffplug.spotless' version '7.0.0.BETA4'
 }
 
-dependencies {
-    implementation 'com.google.googlejavaformat:google-java-format:1.8.0'
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(23) // Replace with your desired version
+    }
+}
+
+spotless {
+    java {
+        // Use the default import order configuration
+        importOrder('java', 'javax', 'com.acme', '', '#com.acme', '#')
+
+        // Remove unused imports
+        removeUnusedImports()
+
+        // Apply formatting to annotations
+        formatAnnotations()
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 23 // Match the desired version
 }
 
 repositories {

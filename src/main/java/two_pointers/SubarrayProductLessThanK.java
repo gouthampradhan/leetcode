@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package two_pointers;
 /**
  * Created by gouthamvidyapradhan on 17/02/2018. Your are given an array of positive integers nums.

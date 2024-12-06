@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package math;
 /**
  * Created by gouthamvidyapradhan on 09/05/2019

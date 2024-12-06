@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package two_pointers;
 /**
  * Created by gouthamvidyapradhan on 25/07/2019 Given an array A of positive integers, call a

@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package dynamic_programming;
 /**
  * Created by gouthamvidyapradhan on 28/05/2019 Given several boxes with different colors

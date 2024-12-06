@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package dynamic_programming;
 /**
  * Created by gouthamvidyapradhan on 15/09/2019 Given a non-empty string, encode the string such

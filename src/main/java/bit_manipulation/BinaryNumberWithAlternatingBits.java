@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package bit_manipulation;
 /**
  * Created by gouthamvidyapradhan on 28/05/2019\ Given a positive integer, check whether it has

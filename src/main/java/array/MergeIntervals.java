@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package array;
 
 import java.util.ArrayList;

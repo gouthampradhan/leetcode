@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package greedy;
 /**
  * Created by gouthamvidyapradhan on 09/04/2019 Suppose LeetCode will start its IPO soon. In order

@@ -1,3 +1,4 @@
+/* (C) 2024 YourCompanyName */
 package depth_first_search;
 
 import java.util.HashSet;
