@@ -105,7 +105,7 @@ Also, some solutions have youtube video link.
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Koko Eating Bananas](src/main/java/binary_search/KokoEatingBananas.java) (Hard)
 - [Single Element in a Sorted Array](src/main/java/binary_search/SingleElementInASortedArray.java) (Medium)
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) [Minimize the Maximum Adjacent Element Difference](src/main/java/binary_search/MinimizeTheMaximumAdjacentElementDifference.java) (Hard) 
-  - [Youtube video explanation](https://www.youtube.com/watch?v=2fCtjA_eitU&t=496s)
+  - [Youtube video explanation](https://www.youtube.com/watch?v=2fCtjA_eitU)
 
 #### [Bit Manipulation](src/main/java/bit_manipulation)
 
