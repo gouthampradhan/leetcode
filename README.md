@@ -3,6 +3,9 @@
 My accepted leetcode solutions to some of the common interview problems. 
 Also, some solutions have youtube video link. 
 
+[Youtube channel](https://www.youtube.com/@codernaut)
+
+
 #### [Array](src/main/java/array)
 
 - [Pascals Traiangle II](src/main/java/array/PascalsTriangle.java) (Easy)
